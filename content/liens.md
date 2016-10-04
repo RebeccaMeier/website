@@ -1,8 +1,9 @@
-+++
-date = "2016-10-03T20:01:18+02:00"
-title = "Liens"
+---
+date: "2016-10-03T20:01:18+02:00"
+title: "Liens"
 
-+++
+menu: "links"
+---
 
 * [Anne-Laure Gex](http://annelauregex.ch/) – Interprète
 * [Artimmod](http://www.artimmod.ch/) – Agencement de cuisines

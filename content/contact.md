@@ -1,8 +1,9 @@
-+++
-date = "2016-10-03T20:01:02+02:00"
-title = "Contact"
+---
+date: "2016-10-03T20:01:02+02:00"
+title: "Contact"
 
-+++
+menu: "links"
+---
 
 Rebecca Meier
 Graphiste indépendante
@@ -15,5 +16,5 @@ Suisse
 
 SGD
 
-+ 41 (0) 76 519 43 55
++41 (0) 76 519 43 55 \
 info@rebeccameier.ch

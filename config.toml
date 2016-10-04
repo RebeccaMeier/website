@@ -1,4 +1,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Rebecca Meier | Graphiste | La Chaux-de-Fonds"
-theme = "base16"
+theme = "rebeccameier-theme"
+
+[params]
+  copyright = "© 2016 Rebecca Meier"

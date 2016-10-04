@@ -1,6 +1,7 @@
 ---
 date: "2016-10-03T19:57:51+02:00"
 title: "Communication"
+type: "gallery"
 
 menu:
   main:
