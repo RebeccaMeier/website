@@ -1,9 +1,10 @@
 ---
 date: "2016-10-03T19:59:57+02:00"
 title: "Prestations"
+lang: "fr"
 
 menu:
-  main:
+  fr:
     identifier: "prestations"
     weight: 100
 ---

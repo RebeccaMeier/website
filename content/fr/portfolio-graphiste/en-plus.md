@@ -1,10 +1,11 @@
 ---
 date: "2016-10-03T19:58:45+02:00"
 title: "En plus"
+lang: "fr"
 type: "gallery"
 
 menu:
-  main:
+  fr:
     parent: "portfolio-graphiste"
 ---
 

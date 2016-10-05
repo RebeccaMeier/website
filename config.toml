@@ -1,7 +1,11 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
+baseurl = "http://next.rebeccameier.ch/"
+languageCode = "fr-ch"
 title = "Rebecca Meier | Graphiste | La Chaux-de-Fonds"
 theme = "rebeccameier-theme"
+copyright = "© 2016 Rebecca Meier"
 
 [params]
-  copyright = "© 2016 Rebecca Meier"
+  ContentLanguages = [
+    "fr",
+    "en"
+  ]

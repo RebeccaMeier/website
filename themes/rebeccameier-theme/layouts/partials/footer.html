@@ -1,9 +1,9 @@
 
   <footer>
-    <a href="/files/RebeccaMeier_mentionslegales.pdf">Mentions légales</a>
+    <a href="/files/RebeccaMeier_mentionslegales.pdf">{{ ( index .Site.Data.translations (default "fr" .Params.lang) ).privacyNotice }}</a>
 
-    {{ .Site.Params.copyright }}
-    Dernière mise à jour {{ .Site.LastChange.Format "2 Jan 2006" }}
+    {{ .Site.Copyright }}
+    {{ ( index .Site.Data.translations (default "fr" .Params.lang) ).lastUpdated }} {{ .Site.LastChange.Format "2 Jan 2006" }}
   </footer>
 </body>
 </html>

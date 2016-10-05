@@ -1,10 +1,11 @@
 ---
 date: "2016-10-03T19:57:51+02:00"
 title: "Communication"
+lang: "fr"
 type: "gallery"
 
 menu:
-  main:
+  fr:
     parent: "portfolio-graphiste"
 ---
 

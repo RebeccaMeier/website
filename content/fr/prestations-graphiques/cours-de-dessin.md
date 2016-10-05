@@ -1,9 +1,10 @@
 ---
 date: "2016-10-03T20:00:30+02:00"
 title: "Cours de dessin"
+lang: "fr"
 
 menu:
-  main:
+  fr:
     parent: "prestations"
 ---
 

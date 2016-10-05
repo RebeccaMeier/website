@@ -1,9 +1,10 @@
 ---
 date: "2016-10-03T19:15:04+02:00"
 title: "Graphisme d’auteur"
+lang: "fr"
 
 menu:
-  main:
+  fr:
     parent: "portfolio-graphiste"
 ---
 

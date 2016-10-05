@@ -1,8 +1,9 @@
 ---
 date: "2016-10-03T18:53:32+02:00"
 title: "Curriculum"
+lang: "fr"
 menu:
-  main:
+  fr:
     parent: "a-propos"
 ---
 

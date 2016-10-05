@@ -1,8 +1,9 @@
 ---
 date: "2016-10-03T20:01:18+02:00"
-title: "Liens"
+title: "Links"
+lang: "en"
 
-menu: "links"
+menu: "links_en"
 ---
 
 * [Anne-Laure Gex](http://annelauregex.ch/) – Interprète

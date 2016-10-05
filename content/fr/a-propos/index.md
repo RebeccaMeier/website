@@ -1,9 +1,10 @@
 ---
 date: "2016-10-03T18:46:02+02:00"
 title: "à Propos"
+lang: "fr"
 
 menu:
-  main:
+  fr:
     identifier: "a-propos"
     weight: -100
 ---

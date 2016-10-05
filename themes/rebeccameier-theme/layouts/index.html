@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 
-{{ range where .Site.Pages "Type" "home" }}
-  <h1> {{ .Title }} </h1>
-  {{ .Content }}
-{{ end }}
+<ul>
+<li><a href="/fr/">fr</a></li>
+<li><a href="/en/">en</a></li>
+</ul>
 
 {{ partial "footer.html" . }}

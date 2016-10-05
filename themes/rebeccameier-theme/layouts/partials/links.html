@@ -4,28 +4,24 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
           {{ $currentNode := . }}
-          {{ range .Site.Menus.links }}
-              {{ if .HasChildren }}
 
-            <li class="sub-menu{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
-            <a href="{{.URL}}" class="">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-            </a>
-            <ul class="sub">
-                {{ range .Children }}
-                <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
-                {{ end }}
-            </ul>
-          {{else}}
+          {{ range (index .Site.Menus (print "links_" (default "fr" .Params.lang) ) ) }}
             <li>
-            <a class="" href="{{.URL}}">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-            </a>
+              <a class="" href="{{.URL}}">
+                  {{ .Pre }}
+                  <span>{{ .Name }}</span>
+              </a>
+            </li>
           {{end}}
-          </li>
-          {{end}}
+
+          <!-- Language switcher -->
+          {{ range .Site.Params.ContentLanguages }}
+            <li>
+              <a href="/{{ . }}">{{ . }}</a>
+            </li>
+          {{ end }}
+          <!-- Language switcher end -->
+
         </ul>
         <!-- sidebar menu end-->
     </div>

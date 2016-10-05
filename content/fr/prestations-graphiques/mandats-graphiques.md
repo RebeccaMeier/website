@@ -1,9 +1,10 @@
 ---
 date: "2016-10-03T20:00:15+02:00"
 title: "Mandats graphiques"
+lang: "fr"
 
 menu:
-  main:
+  fr:
     parent: "prestations"
 ---
 

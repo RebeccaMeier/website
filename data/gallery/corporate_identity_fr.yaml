@@ -1,0 +1,10 @@
+size: "200"
+content:
+- thumbnail: "/img/alegria_thumbnail.jpg"
+  src: "/img/alegria_big.jpg"
+  title: "Alegria - mode éthique"
+  description: "Modification du logo, création des catalogues de présentation, du site internet et divers supports - mars 2013 à aujourd'hui"
+- thumbnail: "/img/corbak_festival_thumbnail.jpg"
+  src: "/img/corbak_festival_big.jpg"
+  title: "Corbak Festival 2016"
+  description: "Création de toute la communication visuelle pour l'édition 2016 du festival"
