@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+
+{{ range where .Site.Pages "Type" "home" }}
+  <h2>{{ .Title }}</h2>
+  {{ .Content }}
+{{ end }}
+
+<!-- Announcement can be placed here -->
+
+{{ partial "footer.html" . }}

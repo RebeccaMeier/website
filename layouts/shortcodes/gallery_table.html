@@ -1,18 +1,15 @@
-
+{{ $gallery := (index .Site.Data.gallery ( printf "%s.%s" (.Get 0) .Page.Lang)) }}
 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-  hello
-  {{ $gallery := .Site.Data.gallery.corporate_identity_fr }}
   {{ range $gallery.content }}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="{{ .src }}" itemprop="contentUrl" data-size="1024x1024">
-          <img src="{{ .thumbnail }}" itemprop="thumbnail" alt="Image description" width="{{ $gallery.size }}" height="{{ $gallery.size }}"/>
+      <a href="{{ .src }}" itemprop="contentUrl" data-size="{{ .size }}">
+          <img src="{{ .thumbnail }}" itemprop="thumbnail" alt="{{ .title }}" width="{{ $gallery.size }}" height="{{ $gallery.size }}"/>
       </a>
-      <figcaption itemprop="caption description">{{ if isset . "title" }}
-        <h4>{{ .Title }}</h4>{{ end }}
-        {{ if isset . "description" }}<p>
-        {{ .description }}
+      <figcaption itemprop="caption description">{{with .title}}
+        <h4>{{ . }}</h4>{{ end }}
+        {{ with .description }}<p>
+        {{ . }}
         </p> {{ end }}
-
       </figcaption>
     </figure>
   {{ end }}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="{{ .Site.Author }}" />
+  <meta name="description" content="{{  .Site.Params.description }}" />
+  <meta name="keywords" content="{{ .Site.Params.keywords }}" />
+  {{ .Hugo.Generator }}
+  {{ template "_internal/google_analytics_async.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "links.html" . }}
+    <a href="{{ "/" | relLangURL }}"><img src="/img/cropped-logo_RebeccaMeier2.png"></img></a>
+    {{ partial "menu.html" . }}
+
+  </header>

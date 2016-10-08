@@ -1,0 +1,3 @@
+<img onmouseover="this.src='{{ .Get "hover" }}'" onmouseout="this.src='{{ .Get "src" }}'"
+{{- with .Get "alt" }} alt="{{.}}" {{ end -}}
+src="{{ .Get "src" }}">
