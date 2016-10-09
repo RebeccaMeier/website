@@ -2,7 +2,7 @@
 date: "2016-10-03T20:01:18+02:00"
 title: "Links"
 
-menu: "links"
+menu: "top_menu"
 ---
 
 * [Artfinance](http://www.artfinance.ch) /  [Artimmod](http://www.artimmod.ch/)

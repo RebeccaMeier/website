@@ -1,7 +1,10 @@
 {{ $gallery := (index .Site.Data.gallery ( printf "%s.%s" (.Get 0) .Page.Lang)) }}
 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-  {{ range $gallery.content }}
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+<table>
+  {{ range $index, $elem := $gallery.content }}
+    {{ if not (mod $index $gallery.column) }}<tr>{{ end }}
+    <td>
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="{{ .src }}" itemprop="contentUrl" data-size="{{ .size }}">
           <img src="{{ .thumbnail }}" itemprop="thumbnail" alt="{{ .title }}" width="{{ $gallery.size }}" height="{{ $gallery.size }}"/>
       </a>
@@ -11,6 +14,9 @@
         {{ . }}
         </p> {{ end }}
       </figcaption>
-    </figure>
+      </figure>
+    </td>
+    {{ if not (mod (add $index 1) $gallery.column) }}</tr>{{ end }}
   {{ end }}
+</table>
 </div>

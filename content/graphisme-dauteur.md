@@ -1,6 +1,7 @@
 ---
 date: "2016-10-03T19:15:04+02:00"
 title: "Graphisme d’auteur"
+description: "monde sensible Expérimentation graphique sur le thème de la perte de la vue Nous avons tous en commun le fait de voir, mais pour la plupart nous avons aussi en commun le fait de ne pas regarder… Je vis depuis toujours la perte de la vue comme étant inéluctable."
 
 menu:
   main:

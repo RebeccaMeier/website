@@ -6,6 +6,7 @@ weight: 1000
 
 menu:
   main:
+    name: "Portfolio"
     identifier: "portfolio-graphiste"
     weight: 0
 
@@ -13,16 +14,16 @@ slug: "graphic-design"
 ---
 <table class="identitevisuelle" title="graphisme">
 <tr><td>
-  <a href="{{< relref "identite-visuelle.md" >}}">
-  {{< hoverImg alt="Identité visuelle et graphique - logos, en-têtes, cartes de visite, etc." src="/img/IV/IV_image6.jpg" hover="/img/IV/IV_image6c.jpg" >}}
+  <a href="{{< relref "identite-visuelle.en.md" >}}">
+  {{< hoverImg alt="Corporate Identity" src="/img/IV/IV_image6.jpg" hover="/img/IV/IV_image6c.jpg" >}}
   </a>
 </td><td>
-  <a href="{{< relref "typo-et-edition.md" >}}">
-  {{< hoverImg alt="Communication graphique - flyers, brochures, sites internet, etc." src="/img/C/C_image8.jpg" hover="/img/C/C_image8b.jpg" >}}
+  <a href="{{< relref "typo-et-edition.en.md" >}}">
+  {{< hoverImg alt="Communication" src="/img/C/C_image8.jpg" hover="/img/C/C_image8b.jpg" >}}
   </a>
 </td><td>
-  <a href="{{< relref "identite-visuelle.md" >}}">
-  {{< hoverImg alt="En plus - dessins et illustrations" src="/img/EP/EP_image27.jpg" hover="/img/EP/EP_image27c.jpg" >}}
+  <a href="{{< relref "identite-visuelle.en.md" >}}">
+  {{< hoverImg alt="Extra" src="/img/EP/EP_image27.jpg" hover="/img/EP/EP_image27c.jpg" >}}
   </a>
 </td></tr>
 <tr>
@@ -31,6 +32,9 @@ slug: "graphic-design"
 <td class="textaccueil">Drawings and paintings</td>
 </tr>
 </table>
+
+
+---
 
 > Every block of stone has a statue inside it and it is the task of the sculptor to discover it.
 > <p style="text-align: right;">Michelangelo</p>

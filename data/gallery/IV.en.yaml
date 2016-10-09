@@ -1,4 +1,5 @@
 size: "200"
+column: 4 
 content:
 - thumbnail: "/img/IV/IV_image7.jpg"
   src: "/img/IV/IV_image7a.jpg"

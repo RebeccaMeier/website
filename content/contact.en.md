@@ -2,7 +2,7 @@
 date: "2016-10-03T20:01:02+02:00"
 title: "Contact"
 
-menu: "links"
+menu: "top_menu"
 ---
 
 Rebecca Meier \

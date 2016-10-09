@@ -1,4 +1,5 @@
 size: "100"
+column: 6
 content:
 - thumbnail: "/img/EP/EP_image30.jpg"
   src: "/img/EP/EP_image30a.jpg"

@@ -1,30 +1,23 @@
-<!--sidebar start-->
-<aside>
-    <div id="links" class="nav-collapse">
-        <!-- sidebar menu start-->
-        <ul class="sidebar-menu">
-          {{ $currentNode := . }}
-
-          {{ range .Site.Menus.links }}
-            <li>
-              <a class="" href="{{.URL}}">
-                  {{ .Pre }}
-                  <span>{{ .Name }}</span>
-              </a>
-            </li>
-          {{end}}
-
-          <!-- available translation of the page -->
-          {{ range .Translations }}
-            <li>
-              <a class="" href="{{.URL}}">
-                {{ .Lang }}
-              </a>
-            </li>
-          {{end}}
-
-        </ul>
-        <!-- sidebar menu end-->
-    </div>
-</aside>
-<!--sidebar end-->
+{{ $currentNode := . }}
+<!-- top menu start-->
+<nav id="top_menu">
+<ul>
+  {{ range .Site.Menus.top_menu }}
+    <li>
+      <a class="" href="{{.URL}}">
+          {{ .Pre }}
+          <span>{{ .Name }}</span>
+      </a>
+    </li>
+  {{- end }}
+  <!-- available translation of the page -->
+  {{- range .Translations -}}
+    <li>
+      <a class="" href="{{.URL}}">
+        {{ .Lang }}
+      </a>
+    </li>
+  {{end}}
+</ul>
+</nav>
+<!-- top menu end-->

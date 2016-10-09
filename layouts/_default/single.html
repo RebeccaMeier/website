@@ -1,4 +1,8 @@
 {{ partial "header.html" . }}
-<h2>{{ .Title }}</h2>
-{{ .Content }}
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</div>
 {{ partial "footer.html" . }}

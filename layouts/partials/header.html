@@ -3,15 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="author" content="{{ .Site.Author }}" />
-  <meta name="description" content="{{  .Site.Params.description }}" />
+  {{ if .Description }}<meta name="description" content="{{ .Description }}" />{{ end }}
   <meta name="keywords" content="{{ .Site.Params.keywords }}" />
+  <meta http-equiv="Content-Language" content="{{ .Lang }}" />
   {{ .Hugo.Generator }}
+  <title>{{ if .IsHome }}{{ .Title}}{{ else }}{{ .Title }} {{ .Site.Params.titleFollow }}{{ end }}</title>
+  {{ range .Translations }}<link hreflang="{{ .Lang }}" href="{{ .URL }}" rel="alternate" />{{ end }}
+  <link rel="stylesheet" href="/css/rebeccameier.css">
   {{ template "_internal/google_analytics_async.html" . }}
 </head>
 <body>
+  <div id="container">
   <header>
     {{ partial "links.html" . }}
-    <a href="{{ "/" | relLangURL }}"><img src="/img/cropped-logo_RebeccaMeier2.png"></img></a>
+    <div id="logo">
+      <a href="{{ "/" | relLangURL }}"><img src="/img/cropped-logo_RebeccaMeier2.png" height="120" width="536"></img></a>
+    </div>
     {{ partial "menu.html" . }}
-
   </header>
+  <div id="wrapper">

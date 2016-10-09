@@ -6,6 +6,7 @@ weight: 1000
 
 menu:
   main:
+    name: "Portfolio"
     identifier: "portfolio-graphiste"
     weight: 0
 ---
@@ -30,6 +31,9 @@ menu:
 <td class="textaccueil">Création de visuels – dessin, peinture, image numérique, etc.</td>
 </tr>
 </table>
+
+
+---
 
 > Chaque bloc de pierre renferme une statue et c’est le rôle du sculpteur de la découvrir.
 > <p style="text-align: right;">Michel-Ange</p>
