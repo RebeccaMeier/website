@@ -20,13 +20,13 @@ menu:
 * InDesign, Dreamweaver et Flash | familière avec QuarkXpress,
 * FontLab Studio et SketchUp.
 
-Trouvez un aperçu de mes travaux graphiques dans la section portfolio
+[Trouvez un aperçu de mes travaux graphiques dans la section portfolio]({{< relref "portfolio.md" >}} "Identité visuelle")
 
 # formation
 
 * depuis 2011  :   Graphiste indépendante
 * depuis 2012  :   Enseignante de cours de dessin particuliers et remplaçante Secondaire 1
-* 2010                Graphiste chez **Californie**, Cressier (NE)
+* 2010         :   Graphiste chez **Californie**, Cressier (NE)
 * 2007 – 2010  :  **Ecole Supérieure des Arts** de Saint-Luc, Liège, BE
     * obtention du **Bachelor de Graphiste**
 * 2004 – 2005  : **Haute Ecole d’Arts Appliqués**, La Chaux-de-Fonds

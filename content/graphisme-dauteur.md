@@ -19,6 +19,6 @@ Il cherche à rappeler la finesse de la vue et la quantité incroyable d’infor
 
 ![monde_sensible_a](/img/monde_sensible_a.jpg)
 
-Si vous souhaitez en savoir plus, n’hésitez pas à prendre contact avec moi.
+Si vous souhaitez en savoir plus, n’hésitez pas à [prendre contact avec moi]({{< relref "contact.md" >}}).
 
-Pour ceux qui en possèdent déjà un exemplaire, voici le lien vers le texte intégral.
+Pour ceux qui en possèdent déjà un exemplaire, voici [le lien vers le texte intégral](/files/MondeSensible_AntoineDollat_texteintegral.pdf).
