@@ -1,12 +1,14 @@
 {{ partial "header.html" . }}
 
 {{ range where .Site.Pages "Type" "home" }}
+<div class="content-full">
   <div class="post">
     <h1>{{ .Title }}</h1>
     <div class="content">
       {{ .Content }}
     </div>
   </div>
+</div>
 {{ end }}
 
 <!-- Announcement can be placed here -->

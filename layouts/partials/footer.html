@@ -4,26 +4,30 @@
 
   {{ if .IsPage }}{{ if eq .Type "gallery" }}{{ partial "photoswipe.html" . }}{{ end }}{{ end }}
   <footer>
-    <div class="privacy-notice">
-      <a href="/files/RebeccaMeier_mentionslegales.pdf">{{ T "privacyNotice" }}</a>
-    </div>
-    {{ with .Site.Data.socialicons }}
-    <ul class="social-icons">
-      {{ range .content }}
-        <li>
-          <a href="{{.href}}"><img src="{{.src}}" alt="{{.alt}}" /></a>
-        </li>
+    <div class="equidistant">
+      <div class="privacy-notice">
+        <a href="/files/RebeccaMeier_mentionslegales.pdf">{{ T "privacyNotice" }}</a>
+      </div>
+      {{ with .Site.Data.socialicons }}
+      <ul class="social-icons">
+        {{ range .content }}
+          <li>
+            <a href="{{.href}}"><img src="{{.src}}" alt="{{.alt}}" /></a>
+          </li>
+        {{ end }}
+      </ul>
       {{ end }}
-    </ul>
-    {{ end }}
-    <div class="copyright">
-      {{ .Site.Copyright }}
     </div>
-    <div class="scoll-top">
-      <a href="#top" title="scroll to top">&uarr;</a>
-    </div>
-    <div class="last-change">
-      {{ T "lastUpdated" }} {{ .Site.LastChange.Format "2 Jan 2006" }}
+    <div class="equidistant">
+      <div class="copyright">
+        {{ .Site.Copyright }}
+      </div>
+      <div class="scoll-top">
+        <a href="#top" title="scroll to top">&uarr;</a>
+      </div>
+      <div class="last-change">
+        {{ T "lastUpdated" }} {{ .Site.LastChange.Format "2 Jan 2006" }}
+      </div>
     </div>
   </footer>
 </body>

@@ -14,6 +14,10 @@ DefaultContentLanguage = "fr"
 weight = 1
 title = "Rebecca Meier | Graphiste | La Chaux-de-Fonds"
 languageName = "Français"
+[[Languages.fr.menu.top_menu]]
+url = "/fr/"
+name = "Accueil"
+weight = -10
 [Languages.fr.params]
 description = "Rebecca Meier, graphiste à la Chaux-de-Fonds, mes prestations se divisent en trois groupes; identité visuelle, design graphique et création de visuels."
 
@@ -21,6 +25,10 @@ description = "Rebecca Meier, graphiste à la Chaux-de-Fonds, mes prestations se
 weight = 2
 title = "Rebecca Meier | Graphic designer | La Chaux-de-Fonds"
 languageName = "English"
+[[Languages.en.menu.top_menu]]
+url = "/en/"
+name = "Home"
+weight = -10
 [Languages.en.params]
 description = "Rebecca Meier, graphic designer at La Chaux-de-Fonds, my services are divided in three groups; corporate identity, editorial design and visual creation."
 
