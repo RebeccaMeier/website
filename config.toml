@@ -22,7 +22,7 @@ weight = 2
 title = "Rebecca Meier | Graphic designer | La Chaux-de-Fonds"
 languageName = "English"
 [Languages.en.params]
-description = "Rebecca Meier, graphic designet at La Chaux-de-Fonds, my services are divided in three groups; corporate identity, editorial design and visual creation."
+description = "Rebecca Meier, graphic designer at La Chaux-de-Fonds, my services are divided in three groups; corporate identity, editorial design and visual creation."
 
 [params]
 titleFollow = "| Rebecca Meier"

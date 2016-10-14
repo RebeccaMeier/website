@@ -1,0 +1,51 @@
+#main_menu
+  text-align: center
+  ul
+    list-style: none
+    padding: 0
+  .menu
+    display: inline
+  .sub-menu
+    display: inline-block
+    vertical-align: top
+    position: relative
+    width: 30%
+
+  .sub-menu:hover
+    .sub
+      visibility: visible
+      height: auto
+  .sub
+    //display: none
+    display: block
+    margin: auto
+    box-shadow: 2px 4px 17px #aaa
+    visibility: hidden
+    height: 0
+    min-width: 10em
+    overflow: hidden
+    position: absolute
+    z-index: 10
+    li
+      background: #ffffff
+      border-top: 1px solid #ddd
+      border-left: 1px solid #ddd
+      border-bottom: 1px solid #ccc
+      border-right: 1px solid #ccc
+    li:hover
+      background: #f3f3f3
+    a
+      display: block
+      font-size: 12px
+      height: 20px
+      line-height: 20px
+      padding: 1px 10px
+  a
+    color: #444444
+    cursor: pointer
+    font-size: 15px
+    font-weight: 400
+    height: 40px
+    line-height: 45px
+    position: relative
+    white-space: nowrap
