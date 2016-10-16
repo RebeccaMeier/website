@@ -35,7 +35,7 @@ a {
 
 ul {
   list-style: square;
-  padding-left: 25px; }
+  padding-left: 20px; }
 
 p, hr, table, pre, form, blockquote, address {
   margin: 1.6em 0; }
@@ -140,8 +140,10 @@ blockquote {
 .multicol {
   display: inline-block;
   vertical-align: top;
-  padding-left: 15px;
-  box-sizing: border-box; }
+  padding-left: 3%;
+  box-sizing: border-box;
+  overflow: hidden;
+  word-wrap: break-word; }
   .multicol li {
     font-size: 0.9em; }
 
@@ -184,5 +186,9 @@ footer {
     width: 100%;
     visibility: hidden;
     display: inline-block; }
+
+@media screen and (max-width: 480px) {
+  #wrapper {
+    padding: 0 20px 20px 20px; } }
 
 /*# sourceMappingURL=rebeccameier.css.map */
