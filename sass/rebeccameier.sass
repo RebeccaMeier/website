@@ -33,6 +33,10 @@ a
   font-weight: 400
   text-decoration: none
 
+ul
+  list-style: square
+  padding-left: 25px
+
 p, hr, table, pre, form, blockquote, address
   margin: 1.6em 0
 
@@ -43,7 +47,6 @@ blockquote
   position: absolute
   z-index: 2
   right: 25px
-  top: 0
   ul
     margin: 2px 0
     display: block
@@ -53,7 +56,7 @@ blockquote
     a
       border-left: 1px solid #ccc
       padding: 0 4px 0 8px
-      font-size: 0.7em
+      font-size: 0.8em
   li:first-of-type
     a
       border-left: none
@@ -84,6 +87,14 @@ blockquote
     font-weight: 100
     color: #999
     line-height: 1em
+
+.multicol
+  display: inline-block
+  vertical-align: top
+  padding-left: 15px
+  box-sizing: border-box
+  li
+    font-size: 0.9em
 
 .textaccueil
   text-align: center

@@ -1,0 +1,4 @@
+{{- $columns := split .Inner "<p>@@split@@</p>" -}}
+{{- range $columns -}}
+  <div class="multicol" style="width:{{ div 100 (len $columns) }}%;" >{{- safeHTML . -}}</div>
+{{- end -}}

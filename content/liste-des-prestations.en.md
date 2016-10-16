@@ -8,8 +8,8 @@ menu:
 ---
 *Non exhaustive list of my services*
 
-
-* Corporate
+{{% multicol %}}
+### Corporate
    *  Logo
    *  Business card
    *  Letterhead
@@ -27,16 +27,21 @@ menu:
    *  Information panels
    *  Shop frontage
    *  Vehicle wrapping
-* Web
+
+### Web
    *  Webdesign
    *  Banners
    *  E-mail signature
    *  Newsletter
-* Edition
+
+@@split@@
+
+### Edition
    *  Bookcover
    *  Book and magazine layout
    *  Template layoutx
-* Promotion
+
+### Promotion
    *  Posters
    *  Flyers
    *  Invitations
@@ -47,19 +52,28 @@ menu:
    *  Point of Sale advertising
    *  Diaporama (powerpoint)
    *  Schematics
-* Pre-press
+
+### Pre-press
    *  Logotype remasterisation
    *  Image editing
-* Image creation
+
+@@split@@
+
+### Image creation
    *  Photography
    *  Drawing
    *  Illustration
    *  Typographical composition
-* Individual clients
+
+### Individual clients
    *  Announcement cards
    *  Invitations
-* Packaging
+
+### Packaging
    *  Product line
    *  Labels and packaging
-* Drawing lessons
+
+### Drawing lessons
    *  Private tuition
+
+{{% /multicol %}}

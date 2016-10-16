@@ -6,7 +6,7 @@ menu:
     parent: "a-propos"
 ---
 
-# compétences
+### compétences
 
 * capacité à **analyser** une problématique dans sa **globalité**
 * **abstraction** et **rapidité** d’apprentissage
@@ -22,7 +22,7 @@ menu:
 
 [Trouvez un aperçu de mes travaux graphiques dans la section portfolio]({{< relref "portfolio.md" >}} "Identité visuelle")
 
-# formation
+### formation
 
 * depuis 2011  :   Graphiste indépendante
 * depuis 2012  :   Enseignante de cours de dessin particuliers et remplaçante Secondaire 1
@@ -34,7 +34,7 @@ menu:
 * 2001 – 2004  : **Lycée Blaise Cendrars**, La Chaux-de-Fonds
     * obtention de la **maturité fédérale**
 
-# langues
+### langues
 
 * Anglais    :   langue maternelle
 * Espagnol   :   langue maternelle
@@ -42,7 +42,7 @@ menu:
 * Allemand   :   connaissances courantes
 * Italien    :   notions
 
-# parcours
+### parcours
 
 Née à Malaga, Espagne, de mère allemande, j’ai vécu durant 11 ans dans une communauté anglophone en Andalousie, puis, en 1996, j’ai déménagé en Suisse.
 

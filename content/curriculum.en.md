@@ -6,7 +6,7 @@ menu:
     parent: "a-propos"
 ---
 
-# skills
+### skills
 
 * professional graphic designer
 * knowledge of various manual artistic skills
@@ -14,7 +14,7 @@ menu:
 
 [Get a glimpse of my artwork in the portfolio section]({{< relref "portfolio.en.md" >}} "Graphic Design")
 
-# education and *work experiences
+### education and work experiences
 
 * since 2011  :     **Self employed** Graphic Designer
 * since 2012  :     Drawing sup teacher for secondary degree schools
@@ -26,7 +26,7 @@ menu:
 * 2001 – 2004 :     **Blaise Cendrars high school**, la Chaux-de-Fonds
   * Federal maturity
 
-# languages
+### languages
 
 * English  :   mother tongue
 * Spanish  :   mother tongue
@@ -34,7 +34,7 @@ menu:
 * German   :   fluent oral skills
 * Italian  :   basic skills
 
-# previous history
+### previous history
 
 I was born from a german mother in Spain and lived there for 11 years in an English-speaking community. I moved to Switzerland in 1996.
 
