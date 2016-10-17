@@ -150,7 +150,7 @@
 	large image loads on top of it
 */
 .pswp__img--placeholder--blank {
-  background: #222; }
+  border: 2px solid #222; }
 
 .pswp--ie .pswp__img {
   width: 100% !important;
