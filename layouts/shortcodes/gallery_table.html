@@ -9,10 +9,10 @@
           <img src="{{ .thumbnail }}" itemprop="thumbnail" alt="{{ .title }}" width="{{ $gallery.size }}" height="{{ $gallery.size }}"/>
       </a>
       <figcaption itemprop="caption description">{{with .title}}
-        <h4>{{ . }}</h4>{{ end }}
-        {{ with .description }}<p>
+        <h4 class="caption-title">{{ . }}</h4>{{ end }}
+        {{ with .description }}<small class="caption-description">
         {{ . }}
-        </p> {{ end }}
+        </small> {{ end }}
       </figcaption>
       </figure>
     </td>
