@@ -14,4 +14,4 @@ The cursus will take the form that most suits you : every week, twice à month o
 
 Learn more by getting in touch with me !
 
-![yeux](/img/yeux.jpg)
+![yeux](/img/EP/EP_image24a.jpg)

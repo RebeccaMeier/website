@@ -8,7 +8,7 @@ menu:
     parent: "portfolio-graphiste"
 ---
 
-![monde_sensible](/img/monde_sensible.jpg)
+{{< figure src="/img/monde_sensible-1024x815.jpg" alt="monde_sensible" link="/img/monde_sensible.jpg" >}}
 
 # monde sensible
 
@@ -18,7 +18,7 @@ Nous avons tous en commun le fait de voir, mais pour la plupart nous avons aussi
 
 Il cherche à rappeler la finesse de la vue et la quantité incroyable d’informations qu’elle peut percevoir dans des situations parfois extrêmes en l’ôtant un instant. L’ouvrage se termine sur un point d’interrogation. Avez-vous conscience de votre chance ? En profitez-vous ?
 
-![monde_sensible_a](/img/monde_sensible_a.jpg)
+{{< figure src="/img/monde_sensible_a-1024x554.jpg" alt="monde_sensible_a" link="/img/monde_sensible_a.jpg" >}}
 
 Si vous souhaitez en savoir plus, n’hésitez pas à [prendre contact avec moi]({{< relref "contact.md" >}}).
 
