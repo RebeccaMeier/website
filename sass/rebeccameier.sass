@@ -66,6 +66,14 @@ blockquote
 
 @import main_menu
 
+#wrapper::after
+  content: " "
+  clear: both
+  display: block
+  visibility: hidden
+  line-height: 0
+  height: 0
+
 #wrapper
   clear: both
   margin: 5px auto 20px auto
@@ -129,6 +137,10 @@ footer
     width: 100%
     visibility: hidden
     display: inline-block
+
+.alignright
+  float: right
+  margin: 5px 0 20px 20px
 
 
 @media screen and (max-width: 980px)

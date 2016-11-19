@@ -105,7 +105,7 @@ blockquote {
       font-size: 0.85em;
       height: 1.4em;
       line-height: 1.4em;
-      padding: 1px 10px; }
+      padding: 4px 10px; }
   #main_menu a {
     color: #444444;
     cursor: pointer;
@@ -115,6 +115,14 @@ blockquote {
     line-height: 3.2em;
     position: relative;
     white-space: nowrap; }
+
+#wrapper::after {
+  content: " ";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
 
 #wrapper {
   clear: both;
@@ -186,6 +194,10 @@ footer {
     width: 100%;
     visibility: hidden;
     display: inline-block; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
 
 @media screen and (max-width: 480px) {
   #wrapper {

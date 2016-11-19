@@ -8,7 +8,7 @@ menu:
     weight: 100
 ---
 
-![jarre](/img/jarre.png)
+<img src="/img/jarre.png" alt="jarre" class="alignright" width="264" height="484" />
 
 En tant que graphiste, je gère toutes les étapes de la création au stade pré-presse de votre commande. Je m’occupe de votre identité visuelle, de votre site internet ou de la création de vos éléments imprimés divers. Pour plus de précisions, consultez la liste de mes prestations.
 
