@@ -8,7 +8,7 @@ menu:
     weight: 100
 ---
 
-<img src="/img/jarre.png" alt="jarre" class="alignright" width="264" height="484" />
+{{< figure src="/img/jarre-558x1024.png" alt="jarre" class="alignright" width="264" height="484" >}}
 
 As a graphic designer I manage every step from design to pre-press and can also oversee the publication process. I am qualified to create your corporate design and any paper or web design following your standards and those of the professional field. For more information please visit my list of services. Get in touch with me to set a date for a meeting or for any questions.
 

@@ -7,7 +7,7 @@ menu:
     parent: "portfolio-graphiste"
 ---
 
-![monde_sensible](/img/monde_sensible.jpg)
+{{< figure src="/img/monde_sensible-1024x815.jpg" alt="monde_sensible" link="/img/monde_sensible.jpg" >}}
 
 # “monde sensible”
 
@@ -20,6 +20,6 @@ This project takes shape as a handmade book soon to be available in 20 original 
 
 Its purpose is to explore different stages of sightloss and make anyone enjoy the simple fact of seeing.
 
-![monde_sensible_a](/img/monde_sensible_a.jpg)
+{{< figure src="/img/monde_sensible_a-1024x554.jpg" alt="monde_sensible_a" link="/img/monde_sensible_a.jpg" >}}
 
 To know more, please [reach out to me]({{< relref "contact.en.md" >}}).

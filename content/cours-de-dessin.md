@@ -14,4 +14,4 @@ Avant de commencer le cours, nous nous rencontrons pour définir vos envies et v
 
 En cas de questions vous pouvez prendre contact par téléphone ou par mail.
 
-![yeux](/img/yeux.jpg)
+![yeux](/img/EP/EP_image24a.jpg)
