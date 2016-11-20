@@ -202,6 +202,9 @@ footer {
   float: right;
   margin: 5px 0 20px 20px; }
 
+@media screen and (max-width: 670px) {
+  #logo {
+    padding-top: 5px; } }
 @media screen and (max-width: 480px) {
   #wrapper {
     padding: 0 20px 20px 20px; } }
