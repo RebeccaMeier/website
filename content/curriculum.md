@@ -20,7 +20,7 @@ menu:
 * InDesign, Dreamweaver et Flash | familière avec QuarkXpress,
 * FontLab Studio et SketchUp.
 
-[Trouvez un aperçu de mes travaux graphiques dans la section portfolio]({{< relref "portfolio.md" >}} "Identité visuelle")
+[Trouvez un aperçu de mes travaux graphiques dans la section portfolio](/ "Identité visuelle")
 
 ### formation
 

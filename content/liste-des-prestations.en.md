@@ -5,6 +5,7 @@ title: "Services list"
 menu:
   main:
     parent: "prestations"
+    weight: 100
 ---
 *Non exhaustive list of my services*
 

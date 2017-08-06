@@ -1,14 +1,13 @@
 ---
 date: "2016-10-03T19:11:55+02:00"
 title: "Graphic Design"
-type: "home"
 weight: 1000
 
 menu:
   main:
     name: "Portfolio"
     identifier: "portfolio-graphiste"
-    weight: 0
+    weight: 1
 
 slug: "graphic-design"
 ---

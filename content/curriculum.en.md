@@ -12,7 +12,7 @@ menu:
 * knowledge of various manual artistic skills
 * computer graphics: Adobe programs; Illustrator, Photoshop, InDesign, Dreamweaver and also with QuarkXPress and Fontlab
 
-[Get a glimpse of my artwork in the portfolio section]({{< relref "portfolio.en.md" >}} "Graphic Design")
+[Get a glimpse of my artwork in the portfolio section](/ "Graphic Design")
 
 ### education and work experiences
 

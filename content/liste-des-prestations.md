@@ -5,6 +5,7 @@ title: "Liste des prestations"
 menu:
   main:
     parent: "prestations"
+    weight: 100
 ---
 *liste non exhaustive de mes prestations*
 

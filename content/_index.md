@@ -1,14 +1,13 @@
 ---
 date: "2016-10-03T19:11:55+02:00"
 title: "Création graphique"
-type: "home"
 weight: 1000
 
 menu:
   main:
     name: "Portfolio"
     identifier: "portfolio-graphiste"
-    weight: 0
+    weight: 1
 ---
 
 <table class="identitevisuelle" title="graphisme">
