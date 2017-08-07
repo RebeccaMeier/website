@@ -1,8 +1,7 @@
 baseurl = "http://next.rebeccameier.ch/"
 
 title = "Rebecca Meier | Graphiste | La Chaux-de-Fonds"
-copyright = "© 2016 Rebecca Meier"
-author = "Rebecca Meier"
+copyright = "© 2017 Rebecca Meier"
 
 googleAnalytics = "UA-55649932-1"
 
@@ -33,5 +32,6 @@ weight = -10
 description = "Rebecca Meier, graphic designer at La Chaux-de-Fonds, my services are divided in three groups; corporate identity, editorial design and visual creation."
 
 [params]
+author = "Rebecca Meier"
 titleFollow = "| Rebecca Meier"
-keywords = "graphiste, graphic designer, la chaux-de-fonds, rebecca meier, rebecca, meier, rebekah, rebekka, rebbeca, rebeca, meyer, mayer, maier, graphisme, graphiste, freelance, entreprise de graphisme, atelier de création, contemporain, essentiel, typographie, typographe, polygraphe, artiste, professionnel, entreprise, agence de communication, graphic design, designer, neuchâtel, la chaux-de-fonds, la chaux de fonds, neuch, montagnes, neuchateloises, littoral, création logos, logo, freelance, indépendante, haut, travaux graphiques, corporate, corporate identity, conception graphique, campagne, identité visuelle, essentiel, simplicité, typo, style épuré, style feminin, communication visuelle, atelier de communication, atelier de graphisme, graphiste, la chaux-de-fonds, portfolio, travaux, création, logo, flyer, brochure, dépliant"
+keywords = [ "graphiste", "graphic designer", "la chaux-de-fonds", "rebecca meier", "rebecca", "meier", "rebekah", "rebekka", "rebbeca", "rebeca", "meyer", "mayer", "maier", "graphisme", "graphiste", "freelance", "entreprise de graphisme", "atelier de création", "contemporain", "essentiel", "typographie", "typographe", "polygraphe", "artiste", "professionnel", "entreprise", "agence de communication", "graphic design", "designer", "neuchâtel", "la chaux-de-fonds", "la chaux de fonds", "neuch", "montagnes", "neuchateloises", "littoral", "création logos", "logo", "freelance", "indépendante", "haut", "travaux graphiques", "corporate", "corporate identity", "conception graphique", "campagne", "identité visuelle", "essentiel", "simplicité", "typo", "style épuré", "style feminin", "communication visuelle", "atelier de communication", "atelier de graphisme", "graphiste", "la chaux-de-fonds", "portfolio", "travaux", "création", "logo", "flyer", "brochure", "dépliant" ]

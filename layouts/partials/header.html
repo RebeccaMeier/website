@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta name="author" content="{{ .Site.Author }}" />
+  <meta name="author" content="{{ .Site.Params.Author }}" />
   {{ if .Description }}<meta name="description" content="{{ .Description }}" />{{ end }}
-  <meta name="keywords" content="{{ .Site.Params.keywords }}" />
+  <meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}" />
   <meta http-equiv="Content-Language" content="{{ .Lang }}" />
   {{ .Hugo.Generator }}
-  <title>{{ if .IsHome }}{{ .Title}}{{ else }}{{ .Title }} {{ .Site.Params.titleFollow }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title}}{{ else }}{{ .Title }} {{ $.Site.Params.titleFollow }}{{ end }}</title>
   {{ range .Translations }}<link hreflang="{{ .Lang }}" href="{{ .URL }}" rel="alternate" />{{ end }}
   <link rel="stylesheet" href="/css/rebeccameier.css">
   {{ template "_internal/google_analytics_async.html" . }}
