@@ -1,0 +1,37 @@
+# Rebecca Meier | Graphic Design
+
+Ce dépot contient le code source du site web www.rebeccameier.ch.
+
+## Déployement
+
+Un script à été créé pour simplifier la compilation et le déployement pour chaque nouvelle version.
+
+Ce script se déclenche lors de la mise à jour de certaine branche sur ce dépot.
+
+Avant de déployer une modification, il faut en premier lieu l'enregistrer. Pour ce faire il faut utiliser les commandes suivantes depuis le répertoire du dépot.
+
+```
+git add -A    # Indique qu'il faut enregistrer les modifications de tous les fichiers.
+git commit -m 'message indiquant les modifications effectuées'
+git push      # Envoi les modification au dépot distant.
+```
+
+**Afin d'éviter de mauvaise surprise, il est conseillé de déployé d'abord sur le site de test.**
+
+### Test
+
+Pour déclancher le déployement vers le site web de test il suffit de lancer les commandes suivantes après avoir enregistrer les modifications avec git.
+
+```
+git push origin master:test
+```
+
+### Release
+
+**Le déployement automatique pour la version `release` n'est pas encore activée**
+
+Pour déclancher le déployement vers le site web il suffit de lancer les commandes suivantes après avoir enregistrer les modifications avec git.
+
+```
+git push origin master:release
+```
