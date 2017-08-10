@@ -1,6 +1,6 @@
 # Rebecca Meier | Graphic Design
 
-Ce dépot contient le code source du site web www.rebeccameier.ch.
+Ce dépot contient le code source du site web [rebeccameier.ch](rebeccameier.ch).
 
 ## Déployement
 
