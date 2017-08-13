@@ -16,11 +16,11 @@ git commit -m 'message indiquant les modifications effectuées'
 git push      # Envoi les modification au dépot distant.
 ```
 
-**Afin d'éviter de mauvaise surprise, il est conseillé de déployer d'abord sur le site de test.**
+**Afin d'éviter de mauvaise surprise, il est conseillé de déployer d'abord sur le [site web de test](http://next.rebeccameier.ch).**
 
 ### Test
 
-Pour déclancher le déployement vers le site web de test, il suffit de lancer les commandes suivantes après avoir enregistrer les modifications avec git.
+Pour déclancher le déployement vers le [site web de test](http://next.rebeccameier.ch), il suffit de lancer les commandes suivantes après avoir enregistrer les modifications avec git.
 
 ```
 git push origin master:test
