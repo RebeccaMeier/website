@@ -1,3 +1,12 @@
 {{ partial "header.html" . }}
-<h1>404 - Fancy meeting you here!</h1>
+
+<div class="content-full">
+  <div class="post">
+    <h1>{{ i18n "e404Title" }}</h1>
+    <div class="content">
+        {{ i18n "e404Message" }}
+    </div>
+  </div>
+</div>
+
 {{ partial "footer.html" . }}

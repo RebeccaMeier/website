@@ -2,3 +2,7 @@
   translation: "Privacy policy"
 - id: lastUpdated
   translation: "Last updated"
+- id: e404Title
+  translation: "404 - Fancy meeting you here!"
+- id: e404Message
+  translation: "The page your are looking for does not exists."

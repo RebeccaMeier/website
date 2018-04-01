@@ -6,13 +6,14 @@ description: "monde sensible Expérimentation graphique sur le thème de la pert
 menu:
   main:
     parent: "portfolio-graphiste"
+    weight: 4
 ---
 
 {{< figure src="/img/monde_sensible-1024x815.jpg" alt="monde_sensible" link="/img/monde_sensible.jpg" >}}
 
-# monde sensible
+<h2>monde sensible</h2>
 
-Expérimentation graphique sur le thème de la perte de la vue
+<h5>Expérimentation graphique sur le thème de la perte de la vue</h5>
 
 Nous avons tous en commun le fait de voir, mais pour la plupart nous avons aussi en commun le fait de ne pas regarder… Je vis depuis toujours la perte de la vue comme étant inéluctable. Cela m’a permis de prendre conscience de ma vision. Dans ce travail, je propose une expérience personnelle où la vue semble se dégrader. Il prend la forme d’un ouvrage. Etant donné sa nature, un tirage limité à 20 exemplaires est en cours de fabrication à la main principalement.
 

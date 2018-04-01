@@ -6,6 +6,7 @@ type: "gallery"
 menu:
   main:
     parent: "portfolio-graphiste"
+    weight: 1
 ---
 
 {{< gallery_table "IV" >}}

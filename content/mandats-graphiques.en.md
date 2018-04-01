@@ -5,6 +5,7 @@ title: "How it goes"
 menu:
   main:
     parent: "prestations"
+    weight: 1
 ---
 
 In order to work together efficiently meetings are the best way to do it. It allows us to get to know each other and makes the communication process easier. It also helps me understand your needs and wishes.

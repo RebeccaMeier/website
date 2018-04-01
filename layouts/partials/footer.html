@@ -2,7 +2,7 @@
   </div><!-- wrapper -->
   </div><!-- container -->
 
-  {{ partial "photoswipe.html" . }}
+  {{ if eq .Type "gallery" }}{{ partial "photoswipe.html" . }}{{ end }}
   <footer>
     <div class="equidistant">
       <div class="privacy-notice">

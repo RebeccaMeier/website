@@ -5,6 +5,7 @@ title: "Philosophie"
 menu:
   main:
     parent: "a-propos"
+    weight: 1
 ---
 {{< figure src="/img/detail.png" alt="details" width="187" height="415" class="alignright" >}}
 

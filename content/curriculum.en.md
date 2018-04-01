@@ -4,6 +4,7 @@ title: "Curriculum"
 menu:
   main:
     parent: "a-propos"
+    weight: 2
 ---
 
 ### skills

@@ -5,13 +5,17 @@ title: "Authorship"
 menu:
   main:
     parent: "portfolio-graphiste"
+    weight: 4
 ---
 
 {{< figure src="/img/monde_sensible-1024x815.jpg" alt="monde_sensible" link="/img/monde_sensible.jpg" >}}
 
-# “monde sensible”
 
+<h2>“monde sensible”</h2>
+
+<h5>
 Graphic experimentation about sightloss.
+</h5>
 
 We all have in common the fact of seeing and most of us also seem not to really look.
 Being irrationally sure that I would end up blind, I picked up the habit of looking more intently and enjoying every flash of light. I would like to share the importance of sight, through the experience of loosing it.

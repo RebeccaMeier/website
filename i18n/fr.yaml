@@ -2,3 +2,7 @@
   translation: "Mentions légales"
 - id: lastUpdated
   translation: "Dernière mise à jour"
+- id: e404Title
+  translation: "404 - La page n'existe pas!"
+- id: e404Message
+  translation: "La page que vous souhaiter atteindre n'existe pas."

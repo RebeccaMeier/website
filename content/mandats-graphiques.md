@@ -5,6 +5,7 @@ title: "Mandats graphiques"
 menu:
   main:
     parent: "prestations"
+    weight: 1
 ---
 
 Une rencontre préliminaire me permet de **prendre connaissance de vos besoins et envies**.

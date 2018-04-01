@@ -5,7 +5,7 @@ title: "Services"
 menu:
   main:
     identifier: "prestations"
-    weight: 100
+    weight: 3
 ---
 
 {{< figure src="/img/jarre-558x1024.png" alt="jarre" class="alignright" width="264" height="484" >}}

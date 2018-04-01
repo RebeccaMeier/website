@@ -5,6 +5,7 @@ title: "Drawing lessons"
 menu:
   main:
     parent: "prestations"
+    weight: 2
 ---
 
 For those interested in drawing and its theory, I give lessons for any level.
