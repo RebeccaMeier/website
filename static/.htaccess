@@ -1,0 +1,14 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+
+# Redirige vers les pages française
+RewriteCond %{HTTP:Accept-Language} (fr) [NC]
+RewriteRule ^$ / [R]
+
+# Redirect to english pages
+RewriteCond %{HTTP:Accept-Language} (en) [NC]
+RewriteRule ^$ /en/ [R]
+
+# Default
+RewriteRule ^$ / [R]
