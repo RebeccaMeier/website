@@ -62,7 +62,16 @@ if [ "$mustCompile" = true ]; then
 
 	# Mirror compiled website to [next.]rebeccameier.ch
         echo "Mirroring with lftp"
-	/usr/bin/lftp ftp://git-deploy@alpinecoaster.easygiga.com -e "set ftp:ssl-force on; set ftp:ssl-protect-data on; set ftp:use-feat off; set ssl:check-hostname on; set ssl:verify-certificate on; set ssl:ca-file \"$WORK_DIR/easygiga.com.crt\"; debug 1; mirror -e -R $diffDir $distDir ; quit"
+	/usr/bin/lftp ftp://git-deploy@alpinecoaster.easygiga.com -e "\
+            set ftp:ssl-force on;\
+            set ftp:ssl-protect-data on;\
+            set ftp:use-feat off;\
+            set ssl:check-hostname on;\
+            set ssl:verify-certificate on;\
+            set ssl:ca-file \"$WORK_DIR/easygiga.com.crt\";\
+            debug 1;\
+            mirror -e -R $diffDir $distDir;\
+            quit"
 fi
 ```
 
