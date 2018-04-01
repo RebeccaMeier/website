@@ -11,4 +11,4 @@ RewriteCond %{HTTP:Accept-Language} (en) [NC]
 RewriteRule ^$ /en/ [R]
 
 # Default
-#RewriteRule ^$ / [R]
+RewriteRule ^$ / [R]
