@@ -9,7 +9,7 @@ menu:
 ---
 *liste non exhaustive de mes prestations*
 
-{{% multicol %}}
+{{% multicol 3 %}}
 
 ### Identité visuelle
 * Logo

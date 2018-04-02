@@ -9,7 +9,7 @@ menu:
 ---
 *Non exhaustive list of my services*
 
-{{% multicol %}}
+{{% multicol 3 %}}
 
 ### Corporate
    *  Logo

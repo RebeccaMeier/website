@@ -5,7 +5,7 @@ title: "Contact"
 menu: "top_menu"
 ---
 
-{{% multicol 2 %}}
+{{% multicol flex %}}
 
 Rebecca Meier \
 Professionnal Graphic Designer

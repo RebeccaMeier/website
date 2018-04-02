@@ -112,7 +112,6 @@ blockquote
     margin-bottom: 1.125em
     margin-top: 1.125em
   h1, h2, h3, h4, h5, h6
-    font-weight: 400
     line-height: 1.0em
     word-wrap: break-word
 
@@ -126,12 +125,23 @@ column-width(w)
   -webkit-column-width: w
   column-width: w
 
-.multicol
-    column-width(180px)
+.multicol-3
+  column-width(180px)
+
+.multicol-2
+  column-width(270px)
+
+.multicol-2, .multicol-3
+  .multicol-item
+    width: 100%
+
+.multicol-flex
+  display: flex
+  flex-wrap: wrap
 
 .multicol-item
+  flex-grow: 1
   display: inline-block
-  width: 100%
   padding-left: 1em
   box-sizing: border-box
   overflow: hidden

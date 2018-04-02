@@ -9,7 +9,7 @@ menu:
 ---
 
 Peu importe votre niveau, vous avez le potentiel pour apprendre à dessiner. Découvrez le monde pas si mystérieux du dessin et des techniques graphiques. Un cours particulier donné par une graphiste diplômée vous permettra de découvrir les bases et plus si affinités. Il prend la forme qui vous convient le mieux : cours hebdomadaire, bimensuel ou quelques cours ponctuels selon vos souhaits et vos objectifs.
-36.-/heure
+44.-/heure
 
 Avant de commencer le cours, nous nous rencontrons pour définir vos envies et votre niveau afin que je puisse vous constituer un plan d’apprentissage sur mesure.
 

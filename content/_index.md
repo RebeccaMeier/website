@@ -20,7 +20,7 @@ menu:
   {{< hoverImg alt="Communication graphique - flyers, brochures, sites internet, etc." src="/img/C/C_image8.jpg" hover="/img/C/C_image8b.jpg" >}}
   </a>
 </td><td>
-  <a href="{{< relref "identite-visuelle.md" >}}">
+  <a href="{{< relref "en-plus.md" >}}">
   {{< hoverImg alt="En plus - dessins et illustrations" src="/img/EP/EP_image27.jpg" hover="/img/EP/EP_image27b.jpg" >}}
   </a>
 </td></tr>

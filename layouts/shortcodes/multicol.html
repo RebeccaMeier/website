@@ -1,5 +1,5 @@
 {{- $columns := split .Inner "<p>@@split@@</p>" -}}
-<div class="multicol">
+<div class="multicol-{{- .Get 0 -}}">
 {{- range $columns -}}
   <div class="multicol-item">{{- safeHTML . -}}</div>
 {{- end -}}

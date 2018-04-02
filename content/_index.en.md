@@ -21,7 +21,7 @@ slug: "graphic-design"
   {{< hoverImg alt="Communication" src="/img/C/C_image8.jpg" hover="/img/C/C_image8b.jpg" >}}
   </a>
 </td><td>
-  <a href="{{< relref "identite-visuelle.en.md" >}}">
+  <a href="{{< relref "en-plus.en.md" >}}">
   {{< hoverImg alt="Extra" src="/img/EP/EP_image27.jpg" hover="/img/EP/EP_image27c.jpg" >}}
   </a>
 </td></tr>
