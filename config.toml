@@ -5,6 +5,8 @@ copyright = "© 2018 Rebecca Meier"
 
 googleAnalytics = "UA-55649932-1"
 
+enableRobotsTXT = true
+
 DefaultContentLanguage = "fr"
 
 [Languages]

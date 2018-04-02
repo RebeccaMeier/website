@@ -116,15 +116,30 @@ blockquote
     line-height: 1.0em
     word-wrap: break-word
 
+column-count(n)
+  -moz-column-count: n
+  -webkit-column-count: n
+  column-count: n
+
+column-width(w)
+  -moz-column-width: w
+  -webkit-column-width: w
+  column-width: w
+
 .multicol
+    column-width(180px)
+
+.multicol-item
   display: inline-block
-  vertical-align: top
-  padding-left: 3%
+  width: 100%
+  padding-left: 1em
   box-sizing: border-box
   overflow: hidden
   word-wrap: break-word
   li
     font-size: 0.9em
+  ul
+    margin-bottom: 0
 
 .textaccueil
   text-align: center

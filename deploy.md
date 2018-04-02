@@ -53,11 +53,11 @@ if [ "$mustCompile" = true ]; then
 	# Compiling website with Hugo
         echo "Compiling with Hugo"
 	compileDir=$WORK_DIR/publish_$branchName
-        diffDir=${compileDir}_diff
 	/usr/bin/hugo --destination $compileDir --source $WORK_DIR --cleanDestinationDir --baseURL $baseURL
 
         # Detect files change (hash)
         echo "Detecting file change with rsync"
+        diffDir=${compileDir}_diff
         /usr/bin/rsync --delete -crhv $compileDir/ $diffDir/
 
 	# Mirror compiled website to [next.]rebeccameier.ch

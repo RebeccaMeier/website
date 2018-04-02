@@ -15,11 +15,11 @@
 </head>
 <body>
   <div id="container">
+  {{ partial "links.html" . }}
   <header>
-    {{ partial "links.html" . }}
     <div id="logo">
       <a href="{{ "/" | relLangURL }}"><img src="/img/cropped-logo_RebeccaMeier2.png" height="120" width="536"></img></a>
     </div>
-    {{ partial "menu.html" . }}
   </header>
+  {{ partial "menu.html" . }}
   <div id="wrapper">

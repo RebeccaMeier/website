@@ -10,6 +10,7 @@ menu:
 *liste non exhaustive de mes prestations*
 
 {{% multicol %}}
+
 ### Identité visuelle
 * Logo
 * Cartes de visite
@@ -29,6 +30,8 @@ menu:
 * Vitrines
 * Habillage de véhicules
 
+@@split@@
+
 ### Web
 * Webdesign
 * Bannières
@@ -42,6 +45,8 @@ menu:
 * Mise en page, livres et magazines
 * Mise en page et / ou gabarits journaux
 
+@@split@@
+
 ### Promotion
 * Affiches
 * Flyers
@@ -53,6 +58,8 @@ menu:
 * PLV
 * Dias (présentations powerpoint)
 * Shémas
+
+@@split@@
 
 ### Pré-presse
 * Remasterisation de logos
@@ -69,19 +76,27 @@ menu:
 * Illustration
 * Jeux typographiques
 
+@@split@@
+
 ### Graphisme d’auteur
 * Posters
 * Concept
 * Déco
 * Mise au point de typos
 
+@@split@@
+
 ### Particuliers
 * Faire-parts
 * Invitations
 
+@@split@@
+
 ### Packaging
 * Gammes de produits
 * Étiquettes et emballages
+
+@@split@@
 
 ### Cours de dessin
 * Cours particuliers
