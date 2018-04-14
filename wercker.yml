@@ -30,13 +30,13 @@ build:
           echo "\nStylus version:"
           stylus --version
     - script:
-        name: compile
+        name: compile Stylus stylesheet
         code: |
           # Compile Stylus stylesheet
-          echo "Compiling Stylus stylesheet"
           stylus --compress --out $WERCKER_SOURCE_DIR/static/css $WERCKER_SOURCE_DIR/stylus/rebeccameier.styl	           # Compiling website with Hugo
-          echo "Compiling with Hugo"
-          compileDir=$WORK_DIR/publish_$branchName
+    - script:
+        name: compile Hugo static pages
+        code: |
           hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
 
 publish:
@@ -51,16 +51,19 @@ publish:
           echo "\nRsync version:"
           rsync --version
     - script:
-        name: publish by ftp
+        name: detect file change (hash)
         code: |
-          # Detect files change (hash)
-          echo "Detecting file change with rsync"
-          rsync --delete -crhv $WERCKER_CACHE_DIR/publish/ $WERCKER_CACHE_DIR/publish_diff/
+          rsync --delete -crhv $WERCKER_CACHE_DIR/publish/ $WERCKER_CACHE_DIR/publish_$DIST_DIR/
+    - script:
+        name: write credentials to file
+        code: |
           # Write password file
           echo -e "machine alpinecoaster.easygiga.com\n  login ${FTP_USER}\n  password ${FTP_PASS}\n" > ~/.netrc
           more ~/.netrc
+    - script:
+        name: mirror with ftp
+        code: |
           # Mirror compiled website to [next.]rebeccameier.ch
-          echo "Mirroring with lftp"
           lftp ftp://git-deploy@alpinecoaster.easygiga.com -e "\
               set ftp:ssl-force on;\
               set ftp:ssl-protect-data on;\
@@ -69,6 +72,6 @@ publish:
               set ssl:verify-certificate on;\
               set ssl:ca-file \"$WERCKER_SOURCE_DIR/easygiga.com.crt\";\
               debug 1;\
-              mirror -e -R $WERCKER_CACHE_DIR/publish_diff $DIST_DIR;\
+              mirror -e -R $WERCKER_CACHE_DIR/publish_$DIST_DIR $DIST_DIR;\
               quit"
 
