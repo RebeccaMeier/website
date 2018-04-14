@@ -1,0 +1,74 @@
+# This references a standard debian container from the
+# Docker Hub https://registry.hub.docker.com/_/debian/
+# Read more about containers on our dev center
+# http://devcenter.wercker.com/docs/containers/index.html
+box: debian
+# You can also use services such as databases. Read more on our dev center:
+# http://devcenter.wercker.com/docs/services/index.html
+# services:
+    # - postgres
+    # http://devcenter.wercker.com/docs/services/postgresql.html
+
+    # - mongo
+    # http://devcenter.wercker.com/docs/services/mongodb.html
+
+# This is the build pipeline. Pipelines are the core of wercker
+# Read more about pipelines on our dev center
+# http://devcenter.wercker.com/docs/pipelines/index.html
+build:
+    # Steps make up the actions in your pipeline
+    # Read more about steps on our dev center:
+    # http://devcenter.wercker.com/docs/steps/index.html
+  steps:
+    - install-packages:
+        packages: git hugo node-stylus lftp rsync
+    - script:
+        name: see versions
+        code: |
+          echo "\nHugo version:"
+          hugo version
+          echo "\nStylus version:"
+          stylus --version
+    - script:
+        name: compile
+        code: |
+          # Compile Stylus stylesheet
+          echo "Compiling Stylus stylesheet"
+          stylus --compress --out $WERCKER_SOURCE_DIR/static/css $WERCKER_SOURCE_DIR/stylus/rebeccameier.styl	           # Compiling website with Hugo
+          echo "Compiling with Hugo"
+          compileDir=$WORK_DIR/publish_$branchName
+          hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
+
+publish:
+    steps:
+    - install-packages:
+        packages: git lftp rsync
+    - script:
+        name: see versions
+        code: |
+          echo "\nLftp version:"
+          lftp --version
+          echo "\nRsync version:"
+          rsync --version
+    - script:
+        name: publish by ftp
+        code: |
+          # Detect files change (hash)
+          echo "Detecting file change with rsync"
+          rsync --delete -crhv $WERCKER_CACHE_DIR/publish $WERCKER_CACHE_DIR/publish_diff
+          # Write password file
+          echo -e "machine alpinecoaster.easygiga.com\n  login ${FTP_USER}\n  password ${FTP_PASS}\n" > ~/.netrc
+          more ~/.netrc
+          # Mirror compiled website to [next.]rebeccameier.ch
+          echo "Mirroring with lftp"
+          lftp ftp://git-deploy@alpinecoaster.easygiga.com -e "\
+              set ftp:ssl-force on;\
+              set ftp:ssl-protect-data on;\
+              set ftp:use-feat off;\
+              set ssl:check-hostname on;\
+              set ssl:verify-certificate on;\
+              set ssl:ca-file \"$WERCKER_SOURCE_DIR/easygiga.com.crt\";\
+              debug 1;\
+              mirror -e -R $WERCKER_CACHE_DIR/publish_diff $DIST_DIR;\
+              quit"
+
