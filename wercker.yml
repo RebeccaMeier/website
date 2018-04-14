@@ -55,7 +55,7 @@ publish:
         code: |
           # Detect files change (hash)
           echo "Detecting file change with rsync"
-          rsync --delete -crhv $WERCKER_CACHE_DIR/publish $WERCKER_CACHE_DIR/publish_diff
+          rsync --delete -crhv $WERCKER_CACHE_DIR/publish/ $WERCKER_CACHE_DIR/publish_diff/
           # Write password file
           echo -e "machine alpinecoaster.easygiga.com\n  login ${FTP_USER}\n  password ${FTP_PASS}\n" > ~/.netrc
           more ~/.netrc
