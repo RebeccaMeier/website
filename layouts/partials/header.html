@@ -9,6 +9,8 @@
   <meta http-equiv="Content-Language" content="{{ .Lang }}" />
   {{ .Hugo.Generator }}
   <title>{{ if .IsHome }}{{ .Site.Title}}{{ else }}{{ .Title }} {{ $.Site.Params.titleFollow }}{{ end }}</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
   {{ range .Translations }}<link hreflang="{{ .Lang }}" href="{{ .URL }}" rel="alternate" />{{ end }}
   <link rel="stylesheet" href="/css/rebeccameier.css">
   {{ template "_internal/google_analytics_async.html" . }}
