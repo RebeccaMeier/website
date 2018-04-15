@@ -21,13 +21,23 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - install-packages:
-        packages: git hugo node-stylus lftp rsync
+        packages: git node-stylus lftp rsync wget
+    - script:
+        name: install hugo
+        code: |
+          if [ -f "$WERCKER_CACHE_DIR/bin/hugo" ]; then
+            echo "Hugo found in cache."
+          else
+            echo "Hugo not found in cache, downloading executable."
+            mkdir $WERCKER_CACHE_DIR/bin
+            wget -O - https://github.com/gohugoio/hugo/releases/download/v0.38.2/hugo_0.38.2_Linux-64bit.tar.gz | tar xzf - -C $WERCKER_CACHE_DIR/bin/
+          fi
     - script:
         name: see versions
         code: |
-          echo "\nHugo version:"
-          hugo version
-          echo "\nStylus version:"
+          echo -e "\nHugo version:"
+          $WERCKER_CACHE_DIR/bin/hugo version
+          echo -e "\nStylus version:"
           stylus --version
     - script:
         name: compile Stylus stylesheet
@@ -37,7 +47,7 @@ build:
     - script:
         name: compile Hugo static pages
         code: |
-          hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
+          $WERCKER_CACHE_DIR/bin/hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
 
 publish:
     steps:
@@ -53,7 +63,7 @@ publish:
     - script:
         name: detect file change (hash)
         code: |
-          rsync --delete -crhv $WERCKER_CACHE_DIR/publish/ $WERCKER_CACHE_DIR/publish_$DIST_DIR/
+          rsync --delete -crhv $WERCKER_CACHE_DIR/publish/ $WERCKER_CACHE_DIR/publish_$WERCKER_GIT_BRANCH/
     - script:
         name: write credentials to file
         code: |
@@ -72,6 +82,6 @@ publish:
               set ssl:verify-certificate on;\
               set ssl:ca-file \"$WERCKER_SOURCE_DIR/easygiga.com.crt\";\
               debug 1;\
-              mirror -e -R $WERCKER_CACHE_DIR/publish_$DIST_DIR $DIST_DIR;\
+              mirror -e -R $WERCKER_CACHE_DIR/publish_$WERCKER_GIT_BRANCH $DIST_DIR;\
               quit"
 
