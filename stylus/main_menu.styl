@@ -1,55 +1,126 @@
 #main_menu
-  text-align: center
   ul
     list-style: none
     padding: 0
-  .menu
-    display: inline
-  .sub-menu
-    display: inline-block
-    vertical-align: top
-    position: relative
-    width: 30%
 
-  .sub-menu:hover
-    .sub
-      visibility: visible
-      height: auto
-  .sub
-    //display: none
-    display: block
-    margin: auto
-    box-shadow: 2px 4px 17px #aaa
-    visibility: hidden
-    height: 0
-    min-width: 10em
-    overflow: hidden
-    position: absolute
-    top: 99%
-    left: calc(50% - 5em - 2px)
-    z-index: 10
-    li
-      background: #ffffff
-      border-top: 1px solid #ddd
-      border-left: 1px solid #ddd
-      border-bottom: 1px solid #ccc
-      border-right: 1px solid #ccc
-    li + li
-      border-top: 0
-    li:hover
-      background: #f3f3f3
-    a
-      display: block
-      font-size: 0.85em
-      height: 1.4em
-      line-height: 1.4em
-      padding: 4px 10px
-  a
-    color: #444444
-    cursor: pointer
-    font-size: 1.1em
-    font-weight: 400
-    height: 2.9em
-    line-height: 3.2em
+@media screen and (min-width: 481px)
+    #main_menu
+      text-align: center
+      .menu-header
+        display: none
+      .menu
+        display: inline
+      .sub-menu
+        display: inline-block
+        vertical-align: top
+        position: relative
+        width: 30%
+
+      .sub-menu:hover
+        .sub
+          visibility: visible
+          height: auto
+      .sub
+        //display: none
+        display: block
+        margin: auto
+        box-shadow: 2px 4px 17px #aaa
+        visibility: hidden
+        height: 0
+        min-width: 10em
+        overflow: hidden
+        position: absolute
+        top: 99%
+        left: calc(50% - 5em - 2px)
+        z-index: 10
+        li
+          background: #ffffff
+          border-top: 1px solid #ddd
+          border-left: 1px solid #ddd
+          border-bottom: 1px solid #ccc
+          border-right: 1px solid #ccc
+        li + li
+          border-top: 0
+        li:hover
+          background: #f3f3f3
+        a
+          display: block
+          font-size: 0.85em
+          height: 1.4em
+          line-height: 1.4em
+          padding: 4px 10px
+      a
+        color: #444444
+        cursor: pointer
+        font-size: 1.1em
+        font-weight: 400
+        height: 2.9em
+        line-height: 3.2em
+        position: relative
+        white-space: nowrap
+
+@media screen and (max-width: 480px)
+  #main_menu
+    text-align: right
     position: relative
-    white-space: nowrap
+    height: 2em
+    .menu
+        width: 50%
+        display: inline-block
+        margin: 0
+        position: absolute
+        right: 0
+    .sub-menu
+        width: 100%
+    .sub-menu > a
+        font-weight: 600
+    .sub
+        position: unset
+        height: auto
+        a
+            padding-left: 2.4em
+    a
+        width: 100%
+        display: inline-block
+        line-height: 2.6em
+        box-sizing: border-box
+        font-size: 0.8em
+        padding-left: 1.2em
+        background: #ffffff
+        border-left: 1px solid #ddd
+        border-bottom: 1px solid #ccc
+        border-right: 1px solid #ccc
+    li
+        text-align: left
+        width: 100%
+        visibility: initial
+    a:hover
+        background: #f3f3f3
+    .menu-header
+        display: inline-block
+        a
+            font-weight: bold
+            color: #77787c
+            border-top: 1px solid #ddd
+            background: linear-gradient(#fbfbfb, #d4d4d4)
+        a:after
+            content: "☰"
+            display: inline-block
+            width: 2.6em
+            font-size: 1.25em
+            text-align: center
+            border-left: 2px solid #ddd
+            position: absolute
+            right: 0
+            
+    .sub-menu
+        display: none
+    .menu.show-menu 
+        box-shadow: 2px 4px 17px #aaa
+        .sub-menu
+            display: block
+
+@media screen and (max-width: 380px)
+  #main_menu
+    .menu
+        width: 100%
