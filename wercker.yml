@@ -19,9 +19,12 @@ build:
     # Steps make up the actions in your pipeline
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
+  box: node
   steps:
-    - install-packages:
-        packages: git node-stylus lftp rsync wget
+    - script:
+        name: install stylus
+        code: |
+          npm install -g stylus
     - script:
         name: install hugo
         code: |
@@ -35,7 +38,7 @@ build:
     - script:
         name: see versions
         code: |
-          echo -e "\nHugo version:"
+          echo -e "Hugo version:"
           $WERCKER_CACHE_DIR/bin/hugo version
           echo -e "\nStylus version:"
           stylus --version
