@@ -47,6 +47,11 @@ build:
     - script:
         name: compile Hugo static pages
         code: |
+          if [ $WERCKER_GIT_BRANCH = "test" ]; then
+            BASE_URL="https://next.rebeccameier.ch"
+          else
+            BASE_URL="https://rebeccameier.ch"
+          fi
           $WERCKER_CACHE_DIR/bin/hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
 
 publish:
