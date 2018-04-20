@@ -58,38 +58,13 @@ build:
           $WERCKER_CACHE_DIR/bin/hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
 
 publish:
+    box: 
     steps:
     - install-packages:
-        packages: git lftp rsync
-    - script:
-        name: see versions
-        code: |
-          echo "\nLftp version:"
-          lftp --version
-          echo "\nRsync version:"
-          rsync --version
-    - script:
-        name: detect file change (hash)
-        code: |
-          rsync --delete -crhv $WERCKER_CACHE_DIR/publish/ $WERCKER_CACHE_DIR/publish_$WERCKER_GIT_BRANCH/
-    - script:
-        name: write credentials to file
-        code: |
-          # Write password file
-          echo -e "machine alpinecoaster.easygiga.com\n  login ${FTP_USER}\n  password ${FTP_PASS}\n" > ~/.netrc
-          more ~/.netrc
-    - script:
-        name: mirror with ftp
-        code: |
-          # Mirror compiled website to [next.]rebeccameier.ch
-          lftp ftp://git-deploy@alpinecoaster.easygiga.com -e "\
-              set ftp:ssl-force on;\
-              set ftp:ssl-protect-data on;\
-              set ftp:use-feat off;\
-              set ssl:check-hostname on;\
-              set ssl:verify-certificate on;\
-              set ssl:ca-file \"$WERCKER_SOURCE_DIR/easygiga.com.crt\";\
-              debug 1;\
-              mirror -e -R $WERCKER_CACHE_DIR/publish_$WERCKER_GIT_BRANCH $DIST_DIR;\
-              quit"
+        packages: curl
+    - mannau/ftp-deploy:
+        destination: ftp://git-deploy@alpinecoaster.easygiga.com$DIST_DIR
+        username: $FTP_USER
+        password: $FTP_PASS
+        subfolder: $WERCKER_CACHE_DIR/publish
 
