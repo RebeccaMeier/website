@@ -9,6 +9,8 @@ enableRobotsTXT = true
 
 DefaultContentLanguage = "fr"
 
+disableKinds = ["taxonomy","taxonomyTerm"]
+
 [Languages]
 [Languages.fr]
 weight = 1
