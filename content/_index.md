@@ -1,8 +1,9 @@
 ---
-date: "2016-10-03T19:11:55+02:00"
+date: "2018-04-25T15:11:55+02:00"
 title: "Création graphique"
 weight: 1000
-
+description: "Présentation du travail de graphisme, dessins et peinture de Rebecca Meier, graphiste professionnelle donnant également des cours de dessin."
+Keywords: "Rebecca Meier, Rebecca, Meier, Rebekah, Rebekka, Rebbeca, Rebeca, Meyer, Mayer, Maier, Graphisme, graphiste,  contemporain, essentiel, communication, typographie, typographe, polygraphe, artiste, professionnel, entreprise, agence de communication, Graphic Design, designer, Suisse, Romandie, Neuchâtel, La Chaux-de-Fonds,la chaux de fonds, neuch, montagnes, neuchateloises, littoral, création logos, cartes, carte de visite, packaging, création graphique, papier à lettre, flyer, depliant, affiche, mise en page, livre, journal, magazine, édition, brochure, revue, concept, pub, présentation d'entreprise, panneau, bâche, vitrine, enseinge, véhicule, display, support, signalétique, autocollant, prospectus, traitement typographique, logo, freelance, indépendante, haut, travaux graphiques, corporate, corporate identity,campagne, identité visuelle, charte, grille modulaire, essentiel, simplicité, typo, style épuré, style feminin"
 menu:
   main:
     name: "Portfolio"
@@ -30,7 +31,7 @@ menu:
 <td class="textaccueil">Création de visuels – dessin, peinture, image numérique, etc.</td>
 </tr>
 </table>
-
+ 
 
 ---
 
