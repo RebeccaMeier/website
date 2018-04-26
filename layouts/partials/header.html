@@ -4,8 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="author" content="{{ .Site.Params.Author }}" />
-  {{ if .Description }}<meta name="description" content="{{ .Description }}" />{{ end }}
-  <meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}" />
+  {{ if .Description }}
+    <meta name="description" content="{{ .Description }}" />
+  {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}" />
+  {{ end }}
+  <meta name="keywords" content="{{ delimit ( uniq ( union .Site.Params.keywords .Params.keywords ) ) ", " }}" />
   <meta http-equiv="Content-Language" content="{{ .Lang }}" />
   {{ .Hugo.Generator }}
   <title>{{ if .IsHome }}{{ .Site.Title}}{{ else }}{{ .Title }} {{ $.Site.Params.titleFollow }}{{ end }}</title>
