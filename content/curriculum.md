@@ -17,9 +17,7 @@ menu:
 * sens de l’**éthique** et de la loyauté
 * **autonomie** et goût du travail en équipe
 * connaissance approfondie des techniques artistiques manuelles
-* **infographie** : maîtrise avancée des programmes usuels pour la création graphique
-  Adobe Illustrator, Photoshop, InDesign
-  FontLab Studio et SketchUp.
+* **infographie** : maîtrise avancée des programmes usuels pour la création graphique: Adobe Illustrator, Photoshop, InDesign, FontLab Studio et SketchUp.
 
 [Trouvez un aperçu de mes travaux graphiques dans la section portfolio](/ "Identité visuelle")
 
