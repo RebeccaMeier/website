@@ -13,15 +13,15 @@ menu:
 <table class="identitevisuelle" title="graphisme">
 <tr><td>
   <a href="{{< relref "identite-visuelle.md" >}}">
-  {{< hoverImg alt="Identité visuelle et graphique - logos, en-têtes, cartes de visite, etc." src="/img/IV/IV_image6.jpg" hover="/img/IV/IV_image6b.jpg" >}}
+  {{< random_gallery_image gallery="IV" alt="Identité visuelle et graphique - logos, en-têtes, cartes de visite, etc." >}}
   </a>
 </td><td>
   <a href="{{< relref "typo-et-edition.md" >}}">
-  {{< hoverImg alt="Communication graphique - flyers, brochures, sites internet, etc." src="/img/C/C_image8.jpg" hover="/img/C/C_image8b.jpg" >}}
+  {{< random_gallery_image gallery="C" alt="Communication graphique - flyers, brochures, sites internet, etc." >}}
   </a>
 </td><td>
   <a href="{{< relref "en-plus.md" >}}">
-  {{< hoverImg alt="En plus - dessins et illustrations" src="/img/EP/EP_image27.jpg" hover="/img/EP/EP_image27b.jpg" >}}
+  {{< random_gallery_image gallery="EP" alt="En plus - dessins et illustrations" >}}
   </a>
 </td></tr>
 <tr>

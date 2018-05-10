@@ -1,5 +1,6 @@
 size: "100"
 column: 6
+defaultThumbnail: "/img/EP/EP_image27.jpg"
 content:
 - thumbnail: "/img/EP/EP_image36.jpg"
   src: "/img/EP/EP_image36a.jpg"

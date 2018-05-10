@@ -1,0 +1,15 @@
+{{ $g := .Get "gallery" }}
+{{ $gallery := (index .Site.Data.gallery ( printf "%s.%s" $g .Page.Lang)) }}
+<div class="overlayed">
+<script>
+    var srcs = {{ jsonify (apply $gallery.content "index" "." "thumbnail") | safeJS }};
+    var num = Math.floor(Math.random() * srcs.length);
+    document.write('<img src="' + srcs[num] + '" {{- with .Get "alt" }} alt="{{.}}" {{ end -}} />'); document.close();
+</script>
+<noscript>
+    <img src="{{ $gallery.defaultThumbnail }}" 
+        {{- with .Get "alt" }} alt="{{.}}" {{ end -}} 
+    />
+</noscript>
+<img class="overlay" src="/img/{{ $g }}/{{ $g }}_hover_{{ .Page.Lang }}.png" />
+</div>

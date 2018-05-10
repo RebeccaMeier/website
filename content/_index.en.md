@@ -14,15 +14,15 @@ slug: "graphic-design"
 <table class="identitevisuelle" title="graphisme">
 <tr><td>
   <a href="{{< relref "identite-visuelle.en.md" >}}">
-  {{< hoverImg alt="Corporate Identity" src="/img/IV/IV_image6.jpg" hover="/img/IV/IV_image6c.jpg" >}}
+  {{< random_gallery_image gallery="IV" alt="Corporate Identity" >}}
   </a>
 </td><td>
   <a href="{{< relref "typo-et-edition.en.md" >}}">
-  {{< hoverImg alt="Communication" src="/img/C/C_image8.jpg" hover="/img/C/C_image8b.jpg" >}}
+  {{< random_gallery_image gallery="C" alt="Communication" src="/img/C/C_image8.jpg" >}}
   </a>
 </td><td>
   <a href="{{< relref "en-plus.en.md" >}}">
-  {{< hoverImg alt="Extra" src="/img/EP/EP_image27.jpg" hover="/img/EP/EP_image27c.jpg" >}}
+  {{< random_gallery_image gallery="EP" alt="Extra" >}}
   </a>
 </td></tr>
 <tr>
