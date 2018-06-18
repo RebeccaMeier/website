@@ -18,7 +18,7 @@ slug: "graphic-design"
   </a>
 </td><td>
   <a href="{{< relref "typo-et-edition.en.md" >}}">
-  {{< random_gallery_image gallery="C" alt="Communication" src="/img/C/C_image8.jpg" >}}
+  {{< random_gallery_image gallery="C" alt="Communication" >}}
   </a>
 </td><td>
   <a href="{{< relref "en-plus.en.md" >}}">

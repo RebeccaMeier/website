@@ -1,13 +1,13 @@
 {{ $g := .Get "gallery" }}
-{{ $gallery := (index .Site.Data.gallery ( printf "%s.%s" $g .Page.Lang)) }}
+{{ $tuple := (index .Site.Data.gallery "home") }}
 <div class="overlayed">
 <script>
-    var srcs = {{ jsonify (apply $gallery.content "index" "." "thumbnail") | safeJS }};
-    var num = Math.floor(Math.random() * srcs.length);
+    var srcs = {{ jsonify (apply $tuple "index" "." $g) | safeJS }};
+    var num = (num === undefined) ? Math.floor(Math.random() * srcs.length) : num;
     document.write('<img src="' + srcs[num] + '" {{- with .Get "alt" }} alt="{{.}}" {{ end -}} />'); document.close();
 </script>
 <noscript>
-    <img src="{{ $gallery.defaultThumbnail }}" 
+    <img src="{{ index (index $tuple 0) $g }}" 
         {{- with .Get "alt" }} alt="{{.}}" {{ end -}} 
     />
 </noscript>
