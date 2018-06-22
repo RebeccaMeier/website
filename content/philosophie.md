@@ -1,6 +1,6 @@
 ---
 date: "2016-10-03T18:51:02+02:00"
-title: "Philosophie"
+title: "Démarche"
 
 menu:
   main:

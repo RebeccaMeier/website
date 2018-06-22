@@ -4,9 +4,21 @@ title: "Links"
 
 menu: "top_menu"
 ---
-
-* [Artfinance](http://www.artfinance.ch) /  [Artimmod](http://www.artimmod.ch/)
-* [Cogespro](http://www.cogespro.ch/) - Entreprise générale
-* [Clara Meloni](http://www.clarameloni.com/) - Soprano singer
+* [Alegria](http://www.alegria-mode.ch/) – Ethical clothing
+* [Anne-Laure Gex](http://annelauregex.ch/) – Interpret
+* [Artimmod](http://www.artimmod.ch/) – Kitchen design
+* [Cogespro](http://www.cogespro.ch/) – Construction company
+* [Clara Meloni](http://www.clarameloni.com/) –  Soprano singer
+* [École Mosaïque](http://ecolemosaique.ch/) – Learning French School
+* [Entrée de jeux](http://www.entree-de-jeux.ch) – Games
 * [Into sarl](http://www.intosarl.ch/) - Interior design
 * [Noémie Lagger](http://noemielagger.ch/) - Jeweler
+* [Nomad](http://www.nomad-ne.ch/) – Homecare
+* [Les Petits Chanteurs à la Gueule de Bois](https://www.pcgb.ch/) – Musical trio
+* [Pentagon System](http://www.pentagon-system.ch/) – Informatics
+* [Solange Berger](http://art-berger.ch/) – Paintor
+
+_____________________________
+* [Bon pied bon art](http://bonpiedbonart.ch/visites-a-l-annee/rebecca-meier/) – Artistes association from la Chaux-de-Fonds
+
+

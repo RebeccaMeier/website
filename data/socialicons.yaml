@@ -1,4 +1,9 @@
 content:
+- alt: "Instagram"
+  src: "/img/socialicons/Instagram-icon.png"
+  href: "https://www.instagram.com/rebecca.meier1/"
+  
 - alt: "Google Plus"
   src: "/img/socialicons/googleplus-icon.png"
   href: "https://plus.google.com/+RebeccaMeierGraphiste"
+

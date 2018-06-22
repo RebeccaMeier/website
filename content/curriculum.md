@@ -45,4 +45,4 @@ menu:
 
 Née à Malaga, Espagne, de mère allemande, j’ai vécu durant 11 ans dans une communauté anglophone en Andalousie, puis, en 1996, j’ai déménagé en Suisse.
 
-[Téléchargez mon CV au format PDF (116 Ko)](/files/CV_RebeccaMeier.pdf)
+<a href="/files/CV_RebeccaMeier.pdf" target="_blank">Téléchargez mon CV au format PDF (116 Ko)</a>

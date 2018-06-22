@@ -8,7 +8,7 @@ menu:
     weight: -100
 ---
 
-Je suis une graphiste diplômée travaillant de manière indépendante depuis fin 2011 et travaille à la Chaux-de-Fonds dans le canton de Neuchâtel, en Suisse Romande. J’ai fait mes études à l’école Supérieure des arts Saint-Luc à Liège en Belgique d’où je suis sortie avec un bachelor en 2010. Ma démarche se dénote par un processus d’exploration approfondie des envies et besoins de mes clients et d’une approche collaborative.
+Graphiste diplômée travaillant en tant qu'indépendante depuis fin 2011 à la Chaux-de-Fonds dans le canton de Neuchâtel, en Suisse Romande, j’ai fait mes études à l’école Supérieure des arts Saint-Luc à Liège en Belgique où j'ai obtenu un bachelor en 2010. Ma démarche se dénote par un processus d’exploration approfondie des envies et besoins de mes clients et d’une approche collaborative.
 
 [![visuel](/img/visuel-1024x348.png)]({{< relref "en-plus.md" >}}/#&gid=1&pid=11)
 
