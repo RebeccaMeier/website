@@ -1,9 +1,10 @@
 ---
 date: "2016-10-03T20:01:18+02:00"
-title: "Links"
+title: "Customers"
 
 menu: "top_menu"
 ---
+* [Active Well Being Initiative](http://activewellbeing.org/) – Sustainable health
 * [Alegria](http://www.alegria-mode.ch/) – Ethical clothing
 * [Anne-Laure Gex](http://annelauregex.ch/) – Interpret
 * [Artimmod](http://www.artimmod.ch/) – Kitchen design

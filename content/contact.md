@@ -10,15 +10,21 @@ menu: "top_menu"
 Rebecca Meier\
 Graphiste indépendante
 
+
 Rue des Fleurs 31\
 2300 La Chaux-de-Fonds\
 Suisse
 
-@@split@@
 
 +41 (0) 76 519 43 55\
 <span style="font-size: 13px; line-height: 19px;">
-[info@rebeccameier.ch](mailto:info@rebeccameier.ch)
+[info@rebeccameier.ch](mailto:info@rebeccameier.ch)\
+
 </span>
+
+@@split@@
+
+{{< figure src="/img/RebeccaMeier.jpg" alt="portrait" width="187" height="" class="alignright" >}}
+
 
 {{% /multicol %}}
