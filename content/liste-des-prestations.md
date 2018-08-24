@@ -103,4 +103,4 @@ menu:
 
 {{% /multicol %}}
 
-[![visuel](/img/visuel-1024x348.png)]({{< relref "en-plus.en.md" >}}#&gid=1&pid=5)
+[![visuel](/img/visuel-1024x348.png)]({{< relref "en-plus.md" >}})
