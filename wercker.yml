@@ -55,6 +55,7 @@ build:
           else
             BASE_URL="https://rebeccameier.ch"
           fi
+          mkdir -p $WERCKER_CACHE_DIR/publish
           $WERCKER_CACHE_DIR/bin/hugo --destination $WERCKER_CACHE_DIR/publish --source $WERCKER_SOURCE_DIR --cleanDestinationDir --baseURL "$BASE_URL"
 
 publish:
