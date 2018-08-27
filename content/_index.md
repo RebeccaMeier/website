@@ -8,6 +8,10 @@ menu:
     name: "Portfolio"
     identifier: "portfolio-graphiste"
     weight: 1
+  top_menu:
+    name: "Accueil"
+    identifier: "accueil"
+    weight: -100
 ---
 
 <table class="identitevisuelle" title="graphisme">

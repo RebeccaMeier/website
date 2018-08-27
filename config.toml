@@ -16,10 +16,6 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 weight = 1
 title = "Rebecca Meier | Graphiste | La Chaux-de-Fonds"
 languageName = "Français"
-[[Languages.fr.menu.top_menu]]
-url = "/fr/"
-name = "Accueil"
-weight = -10
 [Languages.fr.params]
 description = "Rebecca Meier, graphiste à la Chaux-de-Fonds, Neuchâtel (Suisse) mes prestations se divisent en trois groupes; identité visuelle, design graphique et création de visuels. Ma pratique artistique est orientée sur la collaboration étroite avec le client et une reflexion conceptuelle pour répondre à ses besoins au mieux."
 
@@ -27,10 +23,6 @@ description = "Rebecca Meier, graphiste à la Chaux-de-Fonds, Neuchâtel (Suisse
 weight = 2
 title = "Rebecca Meier | Graphic designer | La Chaux-de-Fonds"
 languageName = "English"
-[[Languages.en.menu.top_menu]]
-url = "/en/"
-name = "Home"
-weight = -10
 [Languages.en.params]
 description = "Rebecca Meier, graphic designer based in La Chaux-de-Fonds, Neuchâtel (Switzerland) my services are divided in three groups; corporate identity, editorial design and visual creation. My artistic work involves close collaboration with the client and conceptual research to respond his needs at best."
 
