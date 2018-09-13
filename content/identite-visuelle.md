@@ -11,4 +11,4 @@ menu:
 
 {{< gallery_table "IV" >}}
 
-Ces organismes m’ont fait confiance pour créer leur identité graphique. Je les en remercie et vous invite à les découvrir plus en détail en cliquant sur les vignettes ci-dessus.
+Ces clients m’ont fait confiance pour créer leur identité graphique. Je les en remercie et vous invite à les découvrir plus en détail en cliquant sur les vignettes ci-dessus.

@@ -1,5 +1,5 @@
 ---
-date: "2018-03-15T19:57:51+02:00"
+date: "2018-08-23T10:57:51+02:00"
 title: "Communication"
 type: "gallery"
 

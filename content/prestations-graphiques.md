@@ -16,7 +16,7 @@ Prenez contact avec moi pour convenir d’un rendez-vous ou pour me poser vos qu
 
 Mes tarifs sont délivrés sous forme de devis selon le travail à effectuer.
 
-L’impression et les frais de mise en ligne ne sont en général pas compris dans le prix. Pour cela, vous avez la possibilité de faire appel à vos contacts ou de tirer parti de mon réseau.
+L’impression et les frais de mise en ligne ne sont en général pas compris dans le prix. Pour cela, vous avez la possibilité de faire appel à vos contacts ou de tirer parti de mon réseau professionnel.
 
 En parallèle, je donne aussi des cours de dessin artistique.
 
