@@ -1,5 +1,5 @@
 ---
-date: "2016-10-03T20:00:30+02:00"
+date: "2018-08-23T10:57:51+02:00"
 title: "Cours de dessin"
 
 menu:
@@ -13,6 +13,7 @@ Peu importe votre niveau, vous avez le potentiel pour apprendre à dessiner. Dé
 
 Avant de commencer le cours, nous nous rencontrons pour définir vos envies et votre niveau afin que je puisse vous constituer un plan d’apprentissage sur mesure.
 
-En cas de questions vous pouvez prendre contact par téléphone ou par mail.
+Vous trouverez quelques exemples de dessins [sur la page Dessins et +](/en-plus") ou <a href="/files/Dossier/RebeccaMeier_dessins.pdf" target="_blank">en téléchargeant mon dossier</a>.
+En cas de questions vous pouvez prendre contact par téléphone ou par mail. 
 
 ![yeux](/img/EP/EP_image24a.jpg)

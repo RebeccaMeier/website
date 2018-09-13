@@ -16,10 +16,9 @@ menu: "top_menu"
 * [Noémie Lagger](http://noemielagger.ch/) - Jeweler
 * [Nomad](http://www.nomad-ne.ch/) – Homecare
 * [Les Petits Chanteurs à la Gueule de Bois](https://www.pcgb.ch/) – Musical trio
-* [Pentagon System](http://www.pentagon-system.ch/) – Informatics
 * [Solange Berger](http://art-berger.ch/) – Paintor
 
 _____________________________
-* [Bon pied bon art](http://bonpiedbonart.ch/visites-a-l-annee/rebecca-meier/) – Artistes association from la Chaux-de-Fonds
 
 
+* [Pentagon System](http://www.pentagon-system.ch/) – Informatics

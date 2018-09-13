@@ -21,6 +21,3 @@ menu: "top_menu"
 _____________________________
 * [Pentagon System](http://www.pentagon-system.ch/) – Entreprise informatique
 
-* [Bon pied bon art](http://bonpiedbonart.ch/visites-a-l-annee/rebecca-meier/) – Association d'artistes de la Chaux-de-Fonds
-
-
