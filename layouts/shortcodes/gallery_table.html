@@ -11,7 +11,7 @@
       <figcaption itemprop="caption description">{{with .title}}
         <h4 class="caption-title">{{ . }}</h4>{{ end }}
         {{ with .description }}<small class="caption-description">
-        {{ . }}
+        {{ . | markdownify }}
         </small> {{ end }}
       </figcaption>
       </figure>
