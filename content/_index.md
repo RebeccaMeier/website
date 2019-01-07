@@ -31,7 +31,7 @@ menu:
 <tr>
 <td class="textaccueil">Création de logo et de l’identité graphique liée.</td>
 <td class="textaccueil">Création de flyers, brochures, sites internet, etc.</td>
-<td class="textaccueil">Création de visuels – dessin, peinture, image numérique, etc.</td>
+<td class="textaccueil">Création de visuels, illustration – dessin, peinture, image numérique, etc.</td>
 </tr>
 </table>
  
