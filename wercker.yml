@@ -64,7 +64,7 @@ publish:
     - install-packages:
         packages: curl
     - mannau/ftp-deploy:
-        destination: ftp://git-deploy@alpinecoaster.easygiga.com$DIST_DIR
+        destination: ftp://$FTP_USER@$FTP_SERVER$DIST_DIR
         username: $FTP_USER
         password: $FTP_PASS
         subfolder: $WERCKER_CACHE_DIR/publish
