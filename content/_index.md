@@ -12,6 +12,13 @@ menu:
     name: "Accueil"
     identifier: "accueil"
     weight: -100
+
+---
+---
+INFORMATION CORONAVIRUS : 
+Je suis en activité  -  N'hésitez pas à faire appel à moi. 
+Une moindre charge de travail peut être l'occasion de se pencher sur votre stratégie de communication !
+
 ---
 
 <table class="identitevisuelle" title="graphisme">
@@ -36,9 +43,11 @@ menu:
 </table>
  
 
+
 ---
 
 > Chaque bloc de pierre renferme une statue et c’est le rôle du sculpteur de la découvrir.
 > <p style="text-align: right;">Michel-Ange</p>
 
 Tout comme Michel-Ange, j’envisage la création comme la découverte de l’expression graphique la plus adaptée à vos besoins. Que ce soit pour un logo, une brochure ou une illustration, il s’agit d’explorer les possibilités jusqu’à ce sentiment d’avoir trouvé l’évidence.
+
