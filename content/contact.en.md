@@ -24,7 +24,7 @@ Follow me on
 <a href="https://www.instagram.com/RebeccaMeierGraphicDesign/" target="_blank">Instagram </a> and
 <a href="https://www.facebook.com/RebeccaMeierGraphicDesign" target="_blank"> Facebook </a>
 </span> :\
-RebeccaMeierGraphicDesign
+@RebeccaMeierGraphicDesign
 
 @@split@@
 
