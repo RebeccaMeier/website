@@ -19,6 +19,13 @@ Switzerland
 [info@rebeccameier.ch](mailto:info@rebeccameier.ch)
 </span>
 
+<span style="font-size: 14px; line-height: 10px;">
+Follow me on
+<a href="https://www.instagram.com/RebeccaMeierGraphicDesign/" target="_blank">Instagram </a> and
+<a href="https://www.facebook.com/RebeccaMeierGraphicDesign" target="_blank"> Facebook </a>
+</span> :\
+RebeccaMeierGraphicDesign
+
 @@split@@
 
 {{< figure src="/img/RebeccaMeier.jpg" alt="portrait" width="187" height="" class="alignright" >}}

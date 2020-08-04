@@ -38,7 +38,7 @@ Une moindre charge de travail peut être l'occasion de se pencher sur votre stra
 <tr>
 <td class="textaccueil">Création de logo et de l’identité graphique liée.</td>
 <td class="textaccueil">Création de flyers, brochures, sites internet, etc.</td>
-<td class="textaccueil">Création de visuels, illustration – dessin, peinture, image numérique, etc.</td>
+<td class="textaccueil">Création de visuels – dessin, peinture, numérique, etc.</td>
 </tr>
 </table>
  

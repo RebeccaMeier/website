@@ -17,10 +17,17 @@ Suisse
 
 
 +41 (0) 76 519 43 55\
-<span style="font-size: 13px; line-height: 19px;">
+<span style="font-size: 14px; line-height: 19px;">
 [info@rebeccameier.ch](mailto:info@rebeccameier.ch)\
 
 </span>
+
+<span style="font-size: 14px; line-height: 10px;">
+Suivez-moi sur
+<a href="https://www.instagram.com/RebeccaMeierGraphicDesign/" target="_blank">Instagram </a> et
+<a href="https://www.facebook.com/RebeccaMeierGraphicDesign" target="_blank"> Facebook </a>
+</span> :\
+RebeccaMeierGraphicDesign
 
 @@split@@
 
