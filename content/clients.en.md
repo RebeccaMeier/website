@@ -9,10 +9,10 @@ menu: "top_menu"
 * [Anne-Laure Gex](http://annelauregex.ch/) – Interpret
 * [Artimmod](http://www.artimmod.ch/) – Kitchen design
 * [Cogespro](http://www.cogespro.ch/) – Construction company
-* [Collectif Anonyme]() – Theatre company
+* Collectif Anonyme – Theatre company
 * [Clara Meloni](http://www.clarameloni.com/) –  Soprano singer
 * [École Mosaïque](http://ecolemosaique.ch/) – Learning French School
-* [ÉcoFinance]() – Finance & Health as a whole
+* ÉcoFinance – Finance & Health as a whole
 * [Entrée de jeux](http://www.entree-de-jeux.ch) – Games
 * [Into sarl](http://www.intosarl.ch/) - Interior design
 * [Noémie Lagger](http://noemielagger.ch/) - Jeweler

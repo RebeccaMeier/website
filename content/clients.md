@@ -9,10 +9,10 @@ menu: "top_menu"
 * [Anne-Laure Gex](http://annelauregex.ch/) – Interprète
 * [Artimmod](http://www.artimmod.ch/) – Agencement de cuisines
 * [Cogespro](http://www.cogespro.ch/) – Entreprise générale
-* [Collectif Anonyme]() – Troupe de Théâtre Neuchateloise
+* Collectif Anonyme – Troupe de Théâtre Neuchateloise
 * [Clara Meloni](http://www.clarameloni.com/) – Chanteuse Soprano
 * [École Mosaïque](http://ecolemosaique.ch/) – École de langue
-* [ÉcoFinance]() – Entreprise alliant finance et santé
+* ÉcoFinance – Entreprise alliant finance et santé
 * [Entrée de jeux](http://www.entree-de-jeux.ch) – Activités ludiques
 * [FARS](http://www.federation-arts-rue.ch/) – Fédération des Arts de Rue Suisses
 * [into sàrl](http://www.intosarl.ch/) – Architecture d’intérieur

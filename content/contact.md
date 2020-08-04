@@ -23,11 +23,14 @@ Suisse
 </span>
 
 <span style="font-size: 14px; line-height: 10px;">
-Suivez-moi sur
-<a href="https://www.instagram.com/RebeccaMeierGraphicDesign/" target="_blank">Instagram </a> et
-<a href="https://www.facebook.com/RebeccaMeierGraphicDesign" target="_blank"> Facebook </a>
-</span> :\
+Suivez-moi sur\
+\
+<a href="https://www.instagram.com/RebeccaMeierGraphicDesign/" target="_blank"><img src="/img/socialicons/Instagram-icon.png" alt="Instagram"></a>&nbsp;
+<a href="https://www.facebook.com/RebeccaMeierGraphicDesign" target="_blank"><img src="/img/socialicons/facebook-icon.png" alt="Facebook"></a>
+</span>\
+<span style="color: #adadad;">
 @RebeccaMeierGraphicDesign
+</span>
 
 @@split@@
 
