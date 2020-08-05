@@ -63,7 +63,7 @@ publish:
     steps:
     - install-packages:
         packages: curl
-    - mannau/ftp-deploy:
+    - c-meier/ftp-deploy:
         destination: ftp://$FTP_USER@$FTP_SERVER$DIST_DIR
         username: $FTP_USER
         password: $FTP_PASS
