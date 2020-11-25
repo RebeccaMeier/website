@@ -22,7 +22,10 @@ build:
     # Steps make up the actions in your pipeline
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
-  box: node
+  box:
+    id: node
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASS
   steps:
     - script:
         name: install stylus
@@ -63,6 +66,9 @@ build:
 
 publish:
     box: 
+        id: debian
+        username: $DOCKERHUB_USERNAME
+        password: $DOCKERHUB_PASS
     steps:
     - install-packages:
         packages: curl
