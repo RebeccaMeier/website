@@ -92,4 +92,6 @@ menu:
 
 {{% /multicol %}}
 
+{{< removemargin >}}
 [![visuel](/img/visuel-1024x348.png)]({{< relref "en-plus.en.md" >}})
+{{< /removemargin >}}
