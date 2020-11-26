@@ -1,3 +1,6 @@
+$wrapper-side-margin = 40px
+$wrapper-side-margin-slim = 20px
+
 body
   background-color: #f7f7f7
   background-image: url(/img/infinite_RM.png)
@@ -83,7 +86,7 @@ blockquote
 #wrapper
   clear: both
   margin: 5px auto 20px auto
-  padding: 0 40px 20px 40px
+  padding: 0 $wrapper-side-margin 20px $wrapper-side-margin
   border: 1px solid #e5e5e5
   border-radius: 4px
   background-color: rgba(255, 255, 255, 0.5)
@@ -201,7 +204,7 @@ footer
     display: unset
 
 .remove-margin
-    margin: 1.6em -40px
+    margin: 1.6em ($wrapper-side-margin * -1)
 
 @media screen and (max-width: 670px)
   #logo
@@ -209,8 +212,8 @@ footer
 
 @media screen and (max-width: 480px)
   #wrapper
-    padding: 0 20px 20px 20px
+    padding: 0 $wrapper-side-margin-slim 20px $wrapper-side-margin-slim
   
   .remove-margin
-    margin: 1.6em -20px
+    margin: 1.6em ($wrapper-side-margin-slim * -1)
 
