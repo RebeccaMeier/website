@@ -1,3 +1,4 @@
+{{- $_hugo_config := `{"version": 1}` -}}
 {{- $columns := split .Inner "<p>@@split@@</p>" -}}
 <div class="multicol-{{- .Get 0 -}}">
 {{- range $columns -}}
