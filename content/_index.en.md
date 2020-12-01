@@ -1,7 +1,6 @@
 ---
-date: "2018-08-23T11:11:55+02:00"
+date: "2020-12-01T11:11:55+02:00"
 title: "Graphic Design"
-weight: 1000
 
 menu:
   main:
@@ -13,7 +12,6 @@ menu:
     identifier: "accueil"
     weight: -100
 
-slug: "graphic-design"
 ---
 <table class="identitevisuelle" title="graphisme">
 <tr><td>

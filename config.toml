@@ -11,8 +11,6 @@ DefaultContentLanguage = "fr"
 
 disableKinds = ["taxonomy","taxonomyTerm"]
 
-enableGitInfo = true
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
