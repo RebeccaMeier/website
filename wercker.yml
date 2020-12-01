@@ -39,7 +39,7 @@ build:
           else
             echo "Hugo not found in cache, downloading executable."
             mkdir $WERCKER_CACHE_DIR/bin
-            wget -O - https://github.com/gohugoio/hugo/releases/download/v0.38.2/hugo_0.38.2_Linux-64bit.tar.gz | tar xzf - -C $WERCKER_CACHE_DIR/bin/
+            wget -O - https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_extended_0.79.0_Linux-64bit.tar.gz | tar xzf - -C $WERCKER_CACHE_DIR/bin/
           fi
     - script:
         name: see versions
