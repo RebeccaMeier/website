@@ -1,5 +1,10 @@
 <!-- image -->
-<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+{{ $classnames := slice "" }}
+{{ with .Get "class" }}{{ $classnames = $classnames | append . }}{{ end }}
+{{ if .Get "removemargin" }}{{ $classnames = $classnames | append "remove-margin" }}{{ end }}
+{{ $classname := trim (delimit $classnames " ") " " }}
+
+<figure {{ with $classname }}class="{{.}}"{{ end }}>
     {{ with .Get "link"}}<a href="{{.}}">{{ end }}
         <img src="{{ .Get "src" }}"
         {{- if or (.Get "alt") (.Get "caption") }} alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }}
