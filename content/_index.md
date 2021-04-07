@@ -1,7 +1,6 @@
 ---
-date: "2018-08-23T11:11:55+02:00"
+date: "2020-12-01T22:00:00+02:00"
 title: "Création graphique"
-weight: 1000
 description: "Graphiste défendant une communication pertinente, depuis la reflexion sur le message, jusqu'à la création de votre logo et des visuels constituant votre identité, je conçois tous les supports imprimés et numériques nécessaires à votre communication. Ayant une grande prédilection pour le dessin manuel, je donne également des cours de dessin particuliers."
 menu:
   main:

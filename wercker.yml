@@ -2,7 +2,10 @@
 # Docker Hub https://registry.hub.docker.com/_/debian/
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: debian
+box: 
+    id: debian
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASS
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
 # services:
@@ -19,7 +22,10 @@ build:
     # Steps make up the actions in your pipeline
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
-  box: node
+  box:
+    id: node
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASS
   steps:
     - script:
         name: install stylus
@@ -33,7 +39,7 @@ build:
           else
             echo "Hugo not found in cache, downloading executable."
             mkdir $WERCKER_CACHE_DIR/bin
-            wget -O - https://github.com/gohugoio/hugo/releases/download/v0.38.2/hugo_0.38.2_Linux-64bit.tar.gz | tar xzf - -C $WERCKER_CACHE_DIR/bin/
+            wget -O - https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_extended_0.79.0_Linux-64bit.tar.gz | tar xzf - -C $WERCKER_CACHE_DIR/bin/
           fi
     - script:
         name: see versions
@@ -60,10 +66,13 @@ build:
 
 publish:
     box: 
+        id: debian
+        username: $DOCKERHUB_USERNAME
+        password: $DOCKERHUB_PASS
     steps:
     - install-packages:
         packages: curl
-    - mannau/ftp-deploy:
+    - c-meier/ftp-deploy:
         destination: ftp://$FTP_USER@$FTP_SERVER$DIST_DIR
         username: $FTP_USER
         password: $FTP_PASS

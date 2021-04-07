@@ -14,17 +14,17 @@ Fleurs 31 \
 2300 La Chaux-de-Fonds \
 Switzerland
 
+
 +41 (0) 76 519 43 55 \
-<span style="font-size: 13px; line-height: 19px;">
+<span style="font-size: 14px; line-height: 19px;">
 [info@rebeccameier.ch](mailto:info@rebeccameier.ch)
 </span>
 
 <span style="font-size: 14px; line-height: 10px;">
-Follow me on\
-\
+Follow me on<br/>
 <a href="https://www.instagram.com/RebeccaMeierGraphicDesign/" target="_blank"><img src="/img/socialicons/Instagram-icon.png" alt="Instagram"></a>&nbsp;
 <a href="https://www.facebook.com/RebeccaMeierGraphicDesign" target="_blank"><img src="/img/socialicons/facebook-icon.png" alt="Facebook"></a>
-</span>\
+</span><br/>
 <span style="color: #adadad;">
 @RebeccaMeierGraphicDesign
 </span>
