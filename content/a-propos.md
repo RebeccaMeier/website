@@ -8,7 +8,7 @@ menu:
     weight: -100
 ---
 
-Graphiste professionnelle et communicatrice de passion, je suis établie à la Chaux-de-Fonds dans le canton de Neuchâtel depuis 2011.
+Graphiste professionnelle et communicatrice de passion, je suis établie dans le canton de Neuchâtel depuis 2011.
 Ma démarche se dénote par un processus d’exploration approfondie des envies et besoins de mes clients et d’une approche collaborative. Je privilégie les arts plastiques pour m'accompagner dans mes recherches. 
 Diplômée avec distinction de l’école Supérieure des arts Saint-Luc de Liège en Belgique, j'ai obtenu mon bachelor en 2010. Depuis, je m'emploie à prodiguer une communication intelligente et esthétique à mes clients. 
 

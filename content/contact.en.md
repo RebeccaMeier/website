@@ -10,8 +10,8 @@ menu: "top_menu"
 Rebecca Meier \
 Professionnal Graphic Designer
 
-Fleurs 31 \
-2300 La Chaux-de-Fonds \
+Chemin des Mésanges 4 \
+2054 Chézard-St-Martin \
 Switzerland
 
 
@@ -31,6 +31,6 @@ Follow me on<br/>
 
 @@split@@
 
-{{< figure src="/img/RebeccaMeier.jpg" alt="portrait" width="187" height="" class="alignright" >}}
+{{< figure src="/img/RebeccaMeier2021.jpg" alt="portrait" width="300" height="" class="alignright" >}}
 
 {{% /multicol %}}
