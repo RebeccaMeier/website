@@ -13,12 +13,6 @@ menu:
     weight: -100
 
 ---
----
-INFORMATION CORONAVIRUS : 
-Je suis en activité  -  N'hésitez pas à faire appel à moi. 
-Une moindre charge de travail peut être l'occasion de se pencher sur votre stratégie de communication !
-
----
 
 <table class="identitevisuelle" title="graphisme">
 <tr><td>

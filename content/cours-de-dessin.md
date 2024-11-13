@@ -13,7 +13,7 @@ Peu importe votre niveau, vous avez le potentiel pour apprendre à dessiner. Dé
 
 Avant de commencer le cours, nous nous rencontrons pour définir vos envies et votre niveau afin que je puisse vous constituer un plan d’apprentissage sur mesure.
 
-Vous trouverez quelques exemples de dessins [sur la page Dessins et +](/en-plus") ou <a href="/files/Dossier/RebeccaMeier_dessins.pdf" target="_blank">en téléchargeant mon dossier</a>.
+Vous trouverez quelques exemples de dessins [sur la page Dessins et +](/en-plus) ou <a href="/files/Dossier/RebeccaMeier_dessins.pdf" target="_blank">en téléchargeant mon dossier</a>.
 En cas de questions vous pouvez prendre contact par téléphone ou par mail. 
 
 {{< removemargin >}}
