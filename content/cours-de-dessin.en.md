@@ -5,7 +5,7 @@ title: "Drawing lessons"
 menu:
   main:
     parent: "prestations"
-    weight: 2
+    weight: 4
 ---
 
 For those interested in drawing and its theory, I give lessons for any level.
@@ -13,7 +13,7 @@ I believe every one has the capabilities to learn how to draw. A private lesson 
 The cursus will take the form that most suits you : every week, twice à month or only a few lessons according to your wishes and your goals.
 60.- CHF per hour.
 
-[Learn more by getting in touch with me !](/contact)
+[Learn more by getting in touch with me !]({{< relref "en-plus.en.md" >}})
 
 {{< removemargin >}}
 ![eyes](/img/EP/EP_image24a.jpg)

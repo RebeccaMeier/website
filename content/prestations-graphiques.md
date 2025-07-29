@@ -12,7 +12,7 @@ menu:
 
 En tant que graphiste, je gère toutes les étapes de la création au stade pré-presse de votre commande. Je m’occupe de votre identité visuelle, de votre site internet ou de la création de vos éléments imprimés divers. Pour plus de précisions, consultez la liste de mes prestations.
 
-Mon expérience dans la coordination culturelle me permet également de de proposer des services de coordination de projet. Liant ainsi deux métiers généralement distincts: coordination et graphisme. De cette manière, l'organisation est intimement liée à la communication et le flux est plus efficace et rapide. [Visitez la page Coordination de projets pour en savoir plus](/prestations/prestations-coordination)
+Mon expérience dans la coordination culturelle me permet également de de proposer des services de coordination de projet. Liant ainsi deux métiers généralement distincts: coordination et graphisme. De cette manière, l'organisation est intimement liée à la communication et le flux est plus efficace et rapide. [Visitez la page Coordination de projets pour en savoir plus]({{< relref "prestations-coordination.md" >}})
 
 Prenez contact avec moi pour convenir d’un rendez-vous ou pour me poser vos questions.
 

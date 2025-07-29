@@ -12,7 +12,7 @@ menu:
 
 As a graphic designer I manage every step from design to pre-press and can also oversee the publication process. I am qualified to create your corporate design and any paper or web design following your standards and those of the professional field. For more information please visit my list of services. 
 
-My experience in cultural coordination also enables me to offer project coordination services.  I am able to link two generally distinct professions: coordination and graphic design. In this way, organization is intimately linked to communication, and the flow is faster and more efficient. [Visit Project coordination to learn more](/prestations/prestations-coordination)
+My experience in cultural coordination also enables me to offer project coordination services.  I am able to link two generally distinct professions: coordination and graphic design. In this way, organization is intimately linked to communication, and the flow is faster and more efficient. [Visit Project coordination to learn more]({{< relref "prestations-coordination.en.md" >}})
 
 Get in touch with me to set a date for a meeting or for any questions.
 
