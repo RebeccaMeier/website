@@ -27,7 +27,9 @@ Follow me on<br/>
 </span><br/>
 <span style="color: #adadad;">
 @RebeccaMeierGraphicDesign
-</span>
+</span>s
+
+[See my resume (in french)](/files/CV_RebeccaMeier.pdf)
 
 @@split@@
 

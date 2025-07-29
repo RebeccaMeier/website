@@ -30,6 +30,9 @@ Suivez-moi sur<br/>
 @RebeccaMeierGraphicDesign
 </span>
 
+[Voir mon CV](/files/CV_RebeccaMeier.pdf)
+
+
 @@split@@
 
 {{< figure src="/img/RebeccaMeier2021.jpg" alt="portrait" width="300" height="" class="alignright" >}}
