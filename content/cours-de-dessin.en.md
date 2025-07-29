@@ -13,7 +13,7 @@ I believe every one has the capabilities to learn how to draw. A private lesson 
 The cursus will take the form that most suits you : every week, twice à month or only a few lessons according to your wishes and your goals.
 60.- CHF per hour.
 
-Learn more by getting in touch with me !
+[Learn more by getting in touch with me !](/contact)
 
 {{< removemargin >}}
 ![eyes](/img/EP/EP_image24a.jpg)

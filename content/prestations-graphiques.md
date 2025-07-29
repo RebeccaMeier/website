@@ -12,12 +12,14 @@ menu:
 
 En tant que graphiste, je gère toutes les étapes de la création au stade pré-presse de votre commande. Je m’occupe de votre identité visuelle, de votre site internet ou de la création de vos éléments imprimés divers. Pour plus de précisions, consultez la liste de mes prestations.
 
+Mon expérience dans la coordination culturelle me permet également de de proposer des services de coordination de projet. Liant ainsi deux métiers généralement distincts: coordination et graphisme. De cette manière, l'organisation est intimement liée à la communication et le flux est plus efficace et rapide. [Visitez la page Coordination de projets pour en savoir plus](/prestations/prestations-coordination)
+
 Prenez contact avec moi pour convenir d’un rendez-vous ou pour me poser vos questions.
 
 Mes tarifs sont délivrés sous forme de devis selon le travail à effectuer.
 
 L’impression et les frais de mise en ligne ne sont en général pas compris dans le prix. Pour cela, vous avez la possibilité de faire appel à vos contacts ou de tirer parti de mon réseau professionnel.
 
-En parallèle, je donne aussi des cours de dessin artistique.
+En sus, je donne aussi des cours de dessin artistique.
 
 [Voir mes conditions générales de vente](/files/RebeccaMeier_conditionsgenerales.pdf)

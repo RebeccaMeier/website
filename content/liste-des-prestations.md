@@ -1,5 +1,5 @@
 ---
-date: "2016-10-03T20:00:45+02:00"
+date: "2016-07-03T20:00:45+02:00"
 title: "Liste des prestations"
 
 menu:
@@ -10,6 +10,7 @@ menu:
 *liste non exhaustive de mes prestations*
 
 {{% multicol 3 %}}
+### GRAPHISME
 
 ### Identité visuelle
 * Logo
@@ -47,6 +48,20 @@ menu:
 
 @@split@@
 
+### Packaging
+* Gammes de produits
+* Étiquettes et emballages
+
+@@split@@
+
+### Pré-presse
+* Remasterisation de logos
+* Retouche d’images
+* Ajustements au format
+* Rédaction et correction de textes
+
+@@split@@
+
 ### Promotion
 * Affiches
 * Flyers
@@ -56,17 +71,8 @@ menu:
 * Totem
 * Displays
 * PLV
-* Dias (présentations powerpoint)
-* Shémas
+* Schémas
 
-@@split@@
-
-### Pré-presse
-* Remasterisation de logos
-* Retouche d’images
-* Optimisation d’images
-* Ajustements au format
-* Rédaction et correction de textes
 
 @@split@@
 
@@ -92,14 +98,24 @@ menu:
 
 @@split@@
 
-### Packaging
-* Gammes de produits
-* Étiquettes et emballages
+### COORDINATION DE PROJETS
+* Communication avec les différentes parties, relances
+* Écriture de textes
+* Collecte des informations
+* Constitution du dossier de l'événement/projet
+* Budgetisation
+* Contact avec la presse, création de campagnes promotionelles, suivi et accueil les journalistes
+* Demandes d'autorisation, de fonds, etc.
+* Préparation des différents éléments nécessaires au bon déroulement du projet (matériel nécessaire, branchements, signalétique, etc.)
+* Recherche, sélection et organisation avec les différents partenaires et staff (traiteur, groupe, compagnie, sécurité, employés, bénévoles, etc.)
+* Coordination, brief et suivi du staff sur le terrain
+* Préparation de contrats, factures
 
 @@split@@
 
-### Cours de dessin
+### COURS DE DESSIN
 * Cours particuliers
+
 
 {{% /multicol %}}
 

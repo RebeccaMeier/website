@@ -10,6 +10,7 @@ menu:
 *Non exhaustive list of my services*
 
 {{% multicol 3 %}}
+### GRAPHIC DESIGN
 
 ### Corporate
    *  Logo
@@ -43,7 +44,8 @@ menu:
 ### Edition
    *  Bookcover
    *  Book and magazine layout
-   *  Template layoutx
+   *  Template layout
+
 
 @@split@@
 
@@ -61,11 +63,6 @@ menu:
 
 @@split@@
 
-### Pre-press
-   *  Logotype remasterisation
-   *  Image editing
-
-@@split@@
 
 ### Image creation
    *  Photography
@@ -75,19 +72,41 @@ menu:
 
 @@split@@
 
-### Individual clients
-   *  Announcement cards
-   *  Invitations
-
-@@split@@
-
 ### Packaging
    *  Product line
    *  Labels and packaging
 
 @@split@@
 
-### Drawing lessons
+### Pre-press
+   *  Logotype remasterisation
+   *  Image editing
+
+@@split@@
+
+### Individual clients
+   *  Announcement cards
+   *  Invitations
+
+@@split@@
+
+
+### PROJECT COORDINATION
+   *  Communication with various parties, follow-up
+   *  Copywriting
+   *  Gathering information
+   *  Creation of event/project presentation dossier
+   *  Budgeting
+   *  Apply for permits, funding, etc.
+   *  Contact with the press, creation of promotional campaigns
+   *  Preparing everything required for the project to run smoothly (necessary equipment, connections, signage, etc.).
+   *  Research, selection and organization of various partners and staff (caterer, band, company, security, employees, volunteers, etc.).
+   *  Field staff support, briefing and coordination
+   *  Follow-up of invoices, contracts, billing
+
+@@split@@
+
+### DRAWING LESSONS
    *  Private tuition
 
 {{% /multicol %}}
