@@ -65,5 +65,5 @@ jobs:
           username: ${{ vars.ftp_user }}
           password: ${{ secrets.ftp_password }}
           protocol: ftps
-          local-dir: ./publish/
+          local-dir: ./public/
           dry-run: true
