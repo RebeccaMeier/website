@@ -12,7 +12,7 @@ menu: "top_menu"
 * [Centrergo](https://ergotherapiecdf.wordpress.com/) – Centre d'ergothéraphie
 * [Cogespro](http://www.cogespro.ch/) – Entreprise générale
 * Collectif Anonyme – Troupe de Théâtre Neuchateloise
-* [Challenge 27] (https://challenge27.ch/) - maison d'escape room
+* [Challenge 27](https://challenge27.ch/) - maison d'escape room
 * [Clara Meloni](http://www.clarameloni.com/) – Chanteuse Soprano
 * [École Mosaïque](http://ecolemosaique.ch/) – École de langue
 * ÉcoFinance – Entreprise alliant finance et santé
@@ -21,7 +21,7 @@ menu: "top_menu"
 * [Géoval](https://www.geoval.ch/) – Entreprise d'ingénieurs géologues
 * [into sàrl](http://www.intosarl.ch/) – Architecture d’intérieur
 * Magdalena Roth – réflexologue et aromathérapeute
-* [Muzoo](https://muzoo.ch/) – Musée et parc d'histoire naturelles
+* [Muzoo](https://muzoo.ch/) – Musée et parc d'histoire naturelle
 * [Noemie Lagger](http://noemielagger.ch/) – Bijoutière contemporaine
 * [Nomad](http://www.nomad-ne.ch/) – Soins à domicile
 * [Les Petits Chanteurs à la Gueule de Bois](https://www.pcgb.ch/) – Trio musical
